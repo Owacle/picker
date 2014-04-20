@@ -1,0 +1,322 @@
+<window height="575" title="Vegitales Picker" width="350"><tab title="Main"><button bgcol="[0.9,0.0,0.0]" command="select" height="20" label="" left="252" top="50" width="28"><items>Head_Ctrl</items></button><button bgcol="[0.9,0.0,0.0]" command="select" height="20" label="" left="252" top="13" width="28"><items>stem_1x</items></button><button bgcol="[0.9,0.0,0.0]" command="select" height="20" label="" left="254" top="194" width="26"><items>Head_Mid_Ctrl</items></button><button bgcol="[0.9,0.0,0.0]" command="select" height="20" label="" left="252" top="260" width="28"><items>Waist_Ctrl</items></button><button bgcol="[0.9,0.0,0.0]" command="select" height="20" label="" left="252" top="288" width="28"><items>Ground_Ctrl</items></button><button bgcol="[1.0,0.5,0.0]" command="select" height="20" label="" left="252" top="310" width="28"><items>Jump_Ctrl</items></button><button bgcol="[0.9,0.9,0.0]" command="select" height="16" label="" left="253" top="342" width="25"><items>Base_Ctrl</items></button><button bgcol="[0.9,0.9,0.0]" command="select" height="18" label="" left="249" top="371" width="30"><items>Transform_Ctrl</items></button><button bgcol="[0.9,0.9,0.0]" command="select" height="20" label="Body Only" left="235" top="394" width="60"><items>Transform_Ctrl
+				Base_Ctrl
+				Jump_Ctrl
+				Ground_Ctrl
+				Waist_Ctrl
+				Head_Mid_Ctrl
+				stem_1x
+				Head_Ctrl
+				R_Hand_Ctrl
+				L_Hand_Ctrl
+				CTR_Brow_Ctrl
+				R_Brow_03_Ctrl
+				R_Brow_02_Ctrl
+				R_Brow_01_Ctrl
+				L_Brow_03_Ctrl
+				L_Brow_02_Ctrl
+				L_Brow_01_Ctrl
+				R_Eye_LookAt_Ctrl
+				Eye_LookAt_Ctrl
+				L_Eye_LookAt_Ctrl
+				Nose_01_Ctrl
+				Nose_02_Ctrl
+				Nose_03_Ctrl
+				CTR_Nose_Ctrl
+				BOT_Lip_Ctrl
+				R_BOT_Lip_Ctrl
+				L_BOT_Lip_Ctrl
+				TOP_Lip_Ctrl
+				R_TOP_Lip_Ctrl
+				L_TOP_Lip_Ctrl
+				L_MouthCorner_Ctrl
+				R_MouthCorner_Ctrl
+				TOP_Mouth_Ctrl
+				CTR_Mouth_Ctrl
+				Jaw_Ctrl
+				BOT_Mouth_Ctrl</items></button><button bgcol="[0.9,0.0,0.0]" command="select" height="20" label="" left="215" top="225" width="24"><items>R_Hand_Ctrl</items></button><button bgcol="[0.9,0.0,0.0]" command="select" height="20" label="" left="290" top="225" width="24"><items>L_Hand_Ctrl</items></button><button bgcol="[0.9,0.4,0.3]" command="select" height="20" label="no hop" left="109" top="394" width="40"><items>Waist_Ctrl
+				Head_Mid_Ctrl
+				stem_1x
+				R_Hand_Ctrl
+				L_Hand_Ctrl
+				CTR_Brow_Ctrl
+				R_Brow_03_Ctrl
+				R_Brow_02_Ctrl
+				R_Brow_01_Ctrl
+				L_Brow_03_Ctrl
+				L_Brow_02_Ctrl
+				L_Brow_01_Ctrl
+				R_Eye_LookAt_Ctrl
+				Eye_LookAt_Ctrl
+				L_Eye_LookAt_Ctrl
+				Nose_01_Ctrl
+				Nose_02_Ctrl
+				Nose_03_Ctrl
+				CTR_Nose_Ctrl
+				BOT_Lip_Ctrl
+				R_BOT_Lip_Ctrl
+				L_BOT_Lip_Ctrl
+				TOP_Lip_Ctrl
+				R_TOP_Lip_Ctrl
+				L_TOP_Lip_Ctrl
+				L_MouthCorner_Ctrl
+				R_MouthCorner_Ctrl
+				TOP_Mouth_Ctrl
+				CTR_Mouth_Ctrl
+				Jaw_Ctrl
+				BOT_Mouth_Ctrl</items></button><button bgcol="[0.7,0.2,1.0]" command="select" height="14" label="" left="15" top="31" width="24"><items>CTR_Brow_Ctrl
+				R_Brow_03_Ctrl
+				R_Brow_02_Ctrl
+				R_Brow_01_Ctrl
+				L_Brow_03_Ctrl
+				L_Brow_02_Ctrl
+				L_Brow_01_Ctrl</items></button><button bgcol="[0.9,0.5,0.0]" command="select" height="14" label="" left="57" top="18" width="30"><items>R_Brow_03_Ctrl
+				R_Brow_02_Ctrl
+				R_Brow_01_Ctrl</items></button><button bgcol="[0.1,0.9,0.7]" command="select" height="14" label="" left="50" top="36" width="14"><items>R_Brow_03_Ctrl</items></button><button bgcol="[0.1,0.9,0.7]" command="select" height="14" label="" left="65" top="36" width="14"><items>R_Brow_02_Ctrl</items></button><button bgcol="[0.1,0.9,0.7]" command="select" height="14" label="" left="80" top="36" width="14"><items>R_Brow_01_Ctrl</items></button><button bgcol="[0.1,0.9,0.7]" command="select" height="14" label="" left="100" top="32" width="14"><items>CTR_Brow_Ctrl</items></button><button bgcol="[0.9,0.5,0.0]" command="select" height="14" label="" left="127" top="18" width="30"><items>L_Brow_03_Ctrl
+				L_Brow_02_Ctrl
+				L_Brow_01_Ctrl</items></button><button bgcol="[0.1,0.9,0.7]" command="select" height="14" label="" left="150" top="36" width="14"><items>L_Brow_03_Ctrl</items></button><button bgcol="[0.1,0.9,0.7]" command="select" height="14" label="" left="135" top="36" width="14"><items>L_Brow_02_Ctrl</items></button><button bgcol="[0.1,0.9,0.7]" command="select" height="14" label="" left="120" top="36" width="14"><items>L_Brow_01_Ctrl</items></button><button bgcol="[0.7,0.2,1.0]" command="select" height="14" label="" left="15" top="80" width="24"><items>R_Eye_LookAt_Ctrl
+				Eye_LookAt_Ctrl
+				L_Eye_LookAt_Ctrl</items></button><button bgcol="[1.0,0.8,0.1]" command="select" height="18" label="" left="60" top="70" width="18"><items>R_Eye_LookAt_Ctrl</items></button><button bgcol="[0.9,0.8,0.1]" command="select" height="22" label="" left="80" top="68" width="25"><items>Eye_LookAt_Ctrl</items></button><button bgcol="[1.0,0.8,0.1]" command="select" height="18" label="" left="107" top="70" width="18"><items>L_Eye_LookAt_Ctrl</items></button><button bgcol="[0.7,0.2,1.0]" command="select" height="14" label="" left="15" top="123" width="24"><items>Nose_01_Ctrl
+				Nose_02_Ctrl
+				Nose_03_Ctrl
+				CTR_Nose_Ctrl</items></button><button bgcol="[0.9,0.1,0.1]" command="select" height="18" label="" left="60" top="115" width="18"><items>Nose_01_Ctrl</items></button><button bgcol="[0.9,0.1,0.1]" command="select" height="18" label="" left="80" top="115" width="18"><items>Nose_02_Ctrl</items></button><button bgcol="[0.9,0.1,0.1]" command="select" height="18" label="" left="100" top="115" width="18"><items>Nose_03_Ctrl</items></button><button bgcol="[0.1,0.9,0.9]" command="select" height="18" label="" left="120" top="115" width="18"><items>CTR_Nose_Ctrl</items></button><button bgcol="[0.7,0.2,1.0]" command="select" height="14" label="" left="15" top="171" width="24"><items>BOT_Lip_Ctrl
+				R_BOT_Lip_Ctrl
+				L_BOT_Lip_Ctrl
+				TOP_Lip_Ctrl
+				R_TOP_Lip_Ctrl
+				L_TOP_Lip_Ctrl
+				L_MouthCorner_Ctrl
+				R_MouthCorner_Ctrl</items></button><button bgcol="[0.0,0.9,0.9]" command="select" height="18" label="" left="70" top="175" width="18"><items>R_TOP_Lip_Ctrl</items></button><button bgcol="[0.0,0.9,0.9]" command="select" height="18" label="" left="90" top="175" width="18"><items>TOP_Lip_Ctrl</items></button><button bgcol="[0.0,0.9,0.9]" command="select" height="18" label="" left="110" top="175" width="18"><items>L_TOP_Lip_Ctrl</items></button><button bgcol="[0.0,0.9,0.9]" command="select" height="18" label="" left="70" top="195" width="18"><items>R_BOT_Lip_Ctrl</items></button><button bgcol="[0.0,0.9,0.9]" command="select" height="18" label="" left="90" top="195" width="18"><items>BOT_Lip_Ctrl</items></button><button bgcol="[0.0,0.9,0.9]" command="select" height="18" label="" left="110" top="195" width="18"><items>L_BOT_Lip_Ctrl</items></button><button bgcol="[0.0,0.9,0.9]" command="select" height="18" label="" left="50" top="185" width="18"><items>R_MouthCorner_Ctrl</items></button><button bgcol="[0.0,0.9,0.9]" command="select" height="18" label="" left="130" top="185" width="18"><items>L_MouthCorner_Ctrl</items></button><button bgcol="[0.9,0.5,0.0]" command="select" height="12" label="" left="80" top="161" width="36"><items>TOP_Lip_Ctrl
+				R_TOP_Lip_Ctrl
+				L_TOP_Lip_Ctrl</items></button><button bgcol="[0.9,0.5,0.0]" command="select" height="12" label="" left="80" top="215" width="36"><items>BOT_Lip_Ctrl
+				R_BOT_Lip_Ctrl
+				L_BOT_Lip_Ctrl</items></button><button bgcol="[0.7,0.2,1.0]" command="select" height="14" label="" left="15" top="257" width="24"><items>TOP_Mouth_Ctrl
+				CTR_Mouth_Ctrl
+				Jaw_Ctrl
+				BOT_Mouth_Ctrl</items></button><button bgcol="[0.0,0.9,0.9]" command="select" height="18" label="" left="80" top="257" width="40"><items>CTR_Mouth_Ctrl</items></button><button bgcol="[0.0,0.6,0.8]" command="select" height="15" label="" left="90" top="277" width="20"><items>Jaw_Ctrl
+				BOT_Mouth_Ctrl</items></button><button bgcol="[0.2,0.5,0.9]" command="select" height="18" label="" left="60" top="257" width="18"><items>R_Cheek_Ctrl</items></button><button bgcol="[0.2,0.5,0.9]" command="select" height="18" label="" left="122" top="257" width="18"><items>L_Cheek_Ctrl</items></button><button bgcol="[0.1,0.5,1.0]" command="select" height="14" label="" left="35" top="314" width="14"><items>ControlVis_Ctrl</items></button><button bgcol="[0.9,0.1,0.1]" command="select" height="14" label="" left="35" top="331" width="14"><items>Brow_Blend_Ctrl</items></button><button bgcol="[0.9,0.9,0.0]" command="select" height="14" label="" left="22" top="352" width="14"><items>R_Eye_Transform</items></button><button bgcol="[0.9,0.9,0.0]" command="select" height="14" label="" left="48" top="352" width="14"><items>L_Eye_Transform</items></button><button bgcol="[0.0,0.9,1.0]" command="select" height="12" label="" left="35" top="385" width="12"><items>Mouth_Blend_Ctrl</items></button></tab><tab title="Face"><button bgcol="[0.1,0.5,1.0]" command="select" height="14" label="" left="35" top="314" width="14"><items>ControlVis_Ctrl</items></button><button bgcol="[0.9,0.1,0.1]" command="select" height="14" label="" left="35" top="331" width="14"><items>Brow_Blend_Ctrl</items></button><button bgcol="[0.9,0.9,0.0]" command="select" height="14" label="" left="22" top="352" width="14"><items>R_Eye_Transform</items></button><button bgcol="[0.9,0.9,0.0]" command="select" height="14" label="" left="48" top="352" width="14"><items>L_Eye_Transform</items></button><button bgcol="[0.0,0.9,1.0]" command="select" height="12" label="" left="35" top="385" width="12"><items>Mouth_Blend_Ctrl</items></button><button bgcol="[0.9,0.2,0.7]" command="select" height="24" label="" left="155" top="60" width="30"><items>Brow_Blend_Ctrl
+				L_Eye_Transform
+				R_Eye_Transform
+				R_Eye_UpperLid_05_Ctrl
+				R_Eye_UpperLid_04_Ctrl
+				R_Eye_UpperLid_03_Ctrl
+				R_Eye_UpperLid_02_Ctrl
+				R_Eye_UpperLid_01_Ctrl
+				L_Eye_UpperLid_05_Ctrl
+				L_Eye_UpperLid_04_Ctrl
+				L_Eye_UpperLid_03_Ctrl
+				L_Eye_UpperLid_02_Ctrl
+				L_Eye_UpperLid_01_Ctrl
+				R_Eye_LowerLid_05_Ctrl
+				R_Eye_LowerLid_04_Ctrl
+				R_Eye_LowerLid_03_Ctrl
+				R_Eye_LowerLid_02_Ctrl
+				R_Eye_LowerLid_01_Ctrl
+				L_Eye_LowerLid_05_Ctrl
+				L_Eye_LowerLid_04_Ctrl
+				L_Eye_LowerLid_03_Ctrl
+				L_Eye_LowerLid_02_Ctrl
+				L_Eye_LowerLid_01_Ctrl
+				CTR_Brow_Ctrl
+				R_Brow_03_Ctrl
+				R_Brow_02_Ctrl
+				R_Brow_01_Ctrl
+				L_Brow_03_Ctrl
+				L_Brow_02_Ctrl
+				L_Brow_01_Ctrl
+				R_Eye_LookAt_Ctrl
+				Eye_LookAt_Ctrl
+				L_Eye_LookAt_Ctrl
+				R_Eye_Def_07_Ctrl
+				R_Eye_Def_08_Ctrl
+				R_Eye_Def_01_Ctrl
+				L_Eye_Def_07_Ctrl
+				L_Eye_Def_08_Ctrl
+				L_Eye_Def_01_Ctrl
+				R_Eye_Def_06_Ctrl
+				R_Eye_Def_09_Ctrl
+				R_Eye_Def_02_Ctrl
+				L_Eye_Def_06_Ctrl
+				L_Eye_Def_09_Ctrl
+				L_Eye_Def_02_Ctrl
+				R_Eye_Def_05_Ctrl
+				R_Eye_Def_04_Ctrl
+				R_Eye_Def_03_Ctrl
+				L_Eye_Def_05_Ctrl
+				L_Eye_Def_04_Ctrl
+				L_Eye_Def_03_Ctrl</items></button><button bgcol="[0.7,0.2,1.0]" command="select" height="14" label="" left="15" top="31" width="24"><items>CTR_Brow_Ctrl
+				R_Brow_03_Ctrl
+				R_Brow_02_Ctrl
+				R_Brow_01_Ctrl
+				L_Brow_03_Ctrl
+				L_Brow_02_Ctrl
+				L_Brow_01_Ctrl</items></button><button bgcol="[0.9,0.5,0.0]" command="select" height="14" label="" left="57" top="18" width="30"><items>R_Brow_03_Ctrl
+				R_Brow_02_Ctrl
+				R_Brow_01_Ctrl</items></button><button bgcol="[0.1,0.9,0.7]" command="select" height="14" label="" left="50" top="36" width="14"><items>R_Brow_03_Ctrl</items></button><button bgcol="[0.1,0.9,0.7]" command="select" height="14" label="" left="65" top="36" width="14"><items>R_Brow_02_Ctrl</items></button><button bgcol="[0.1,0.9,0.7]" command="select" height="14" label="" left="80" top="36" width="14"><items>R_Brow_01_Ctrl</items></button><button bgcol="[0.1,0.9,0.7]" command="select" height="14" label="" left="100" top="32" width="14"><items>CTR_Brow_Ctrl</items></button><button bgcol="[0.9,0.5,0.0]" command="select" height="14" label="" left="127" top="18" width="30"><items>L_Brow_03_Ctrl
+				L_Brow_02_Ctrl
+				L_Brow_01_Ctrl</items></button><button bgcol="[0.1,0.9,0.7]" command="select" height="14" label="" left="150" top="36" width="14"><items>L_Brow_03_Ctrl</items></button><button bgcol="[0.1,0.9,0.7]" command="select" height="14" label="" left="135" top="36" width="14"><items>L_Brow_02_Ctrl</items></button><button bgcol="[0.1,0.9,0.7]" command="select" height="14" label="" left="120" top="36" width="14"><items>L_Brow_01_Ctrl</items></button><button bgcol="[0.7,0.2,1.0]" command="select" height="14" label="" left="15" top="80" width="24"><items>R_Eye_LookAt_Ctrl
+				Eye_LookAt_Ctrl
+				L_Eye_LookAt_Ctrl</items></button><button bgcol="[1.0,0.8,0.1]" command="select" height="18" label="" left="60" top="70" width="18"><items>R_Eye_LookAt_Ctrl</items></button><button bgcol="[0.9,0.8,0.1]" command="select" height="22" label="" left="80" top="68" width="25"><items>Eye_LookAt_Ctrl</items></button><button bgcol="[1.0,0.8,0.1]" command="select" height="18" label="" left="107" top="70" width="18"><items>L_Eye_LookAt_Ctrl</items></button><button bgcol="[0.7,0.2,1.0]" command="select" height="14" label="" left="15" top="123" width="24"><items>Nose_01_Ctrl
+				Nose_02_Ctrl
+				Nose_03_Ctrl
+				CTR_Nose_Ctrl</items></button><button bgcol="[0.9,0.1,0.1]" command="select" height="18" label="" left="60" top="115" width="18"><items>Nose_01_Ctrl</items></button><button bgcol="[0.9,0.1,0.1]" command="select" height="18" label="" left="80" top="115" width="18"><items>Nose_02_Ctrl</items></button><button bgcol="[0.9,0.1,0.1]" command="select" height="18" label="" left="100" top="115" width="18"><items>Nose_03_Ctrl</items></button><button bgcol="[0.1,0.9,0.9]" command="select" height="18" label="" left="120" top="115" width="18"><items>CTR_Nose_Ctrl</items></button><button bgcol="[0.9,0.2,0.7]" command="select" height="24" label="" left="145" top="230" width="30"><items>BOT_Lip_Ctrl
+				R_BOT_Lip_Ctrl
+				L_BOT_Lip_Ctrl
+				TOP_Lip_Ctrl
+				R_TOP_Lip_Ctrl
+				L_TOP_Lip_Ctrl
+				L_MouthCorner_Ctrl
+				R_MouthCorner_Ctrl
+				TOP_Mouth_Ctrl
+				CTR_Mouth_Ctrl
+				Jaw_Ctrl
+				BOT_Mouth_Ctrl
+				TOP_Tooth_Main_Ctrl
+				TOP_Teeth_Main_Ctrl
+				BOT_Tooth_Main_Ctrl
+				BOT_Teeth_Main_Ctrl
+				TOP_Teeth_01_Ctrl
+				TOP_Teeth_02_Ctrl
+				TOP_Teeth_03_Ctrl
+				TOP_Teeth_04_Ctrl
+				TOP_Teeth_05_Ctrl
+				BOT_Teeth_01_Ctrl
+				BOT_Teeth_02_Ctrl
+				BOT_Teeth_03_Ctrl
+				BOT_Teeth_04_Ctrl
+				BOT_Teeth_05_Ctrl
+				Tongue_05_Ctrl
+				Tongue_04_Ctrl
+				Tongue_03_Ctrl
+				Tongue_02_Ctrl
+				Tongue_01_Ctrl
+				Tongue_05_FK_Ctrl
+				Tongue_04_FK_Ctrl
+				Tongue_03_FK_Ctrl
+				Tongue_02_FK_Ctrl
+				Tongue_01_FK_Ctrl
+				R_Cheek_Ctrl
+				L_Cheek_Ctrl</items></button><button bgcol="[0.7,0.2,1.0]" command="select" height="14" label="" left="15" top="171" width="24"><items>BOT_Lip_Ctrl
+				R_BOT_Lip_Ctrl
+				L_BOT_Lip_Ctrl
+				TOP_Lip_Ctrl
+				R_TOP_Lip_Ctrl
+				L_TOP_Lip_Ctrl
+				L_MouthCorner_Ctrl
+				R_MouthCorner_Ctrl</items></button><button bgcol="[0.0,0.9,0.9]" command="select" height="18" label="" left="70" top="175" width="18"><items>R_TOP_Lip_Ctrl</items></button><button bgcol="[0.0,0.9,0.9]" command="select" height="18" label="" left="90" top="175" width="18"><items>TOP_Lip_Ctrl</items></button><button bgcol="[0.0,0.9,0.9]" command="select" height="18" label="" left="110" top="175" width="18"><items>L_TOP_Lip_Ctrl</items></button><button bgcol="[0.0,0.9,0.9]" command="select" height="18" label="" left="70" top="195" width="18"><items>R_BOT_Lip_Ctrl</items></button><button bgcol="[0.0,0.9,0.9]" command="select" height="18" label="" left="90" top="195" width="18"><items>BOT_Lip_Ctrl</items></button><button bgcol="[0.0,0.9,0.9]" command="select" height="18" label="" left="110" top="195" width="18"><items>L_BOT_Lip_Ctrl</items></button><button bgcol="[0.0,0.9,0.9]" command="select" height="18" label="" left="50" top="185" width="18"><items>R_MouthCorner_Ctrl</items></button><button bgcol="[0.0,0.9,0.9]" command="select" height="18" label="" left="130" top="185" width="18"><items>L_MouthCorner_Ctrl</items></button><button bgcol="[0.9,0.5,0.0]" command="select" height="12" label="" left="80" top="161" width="36"><items>TOP_Lip_Ctrl
+				R_TOP_Lip_Ctrl
+				L_TOP_Lip_Ctrl</items></button><button bgcol="[0.9,0.5,0.0]" command="select" height="12" label="" left="80" top="215" width="36"><items>BOT_Lip_Ctrl
+				R_BOT_Lip_Ctrl
+				L_BOT_Lip_Ctrl</items></button><button bgcol="[0.7,0.2,1.0]" command="select" height="14" label="" left="15" top="257" width="24"><items>TOP_Mouth_Ctrl
+				CTR_Mouth_Ctrl
+				Jaw_Ctrl
+				BOT_Mouth_Ctrl</items></button><button bgcol="[0.0,0.9,0.9]" command="select" height="18" label="" left="80" top="257" width="40"><items>CTR_Mouth_Ctrl</items></button><button bgcol="[0.0,0.6,0.8]" command="select" height="15" label="" left="90" top="277" width="20"><items>Jaw_Ctrl
+				BOT_Mouth_Ctrl</items></button><button bgcol="[0.2,0.5,0.9]" command="select" height="18" label="" left="60" top="257" width="18"><items>R_Cheek_Ctrl</items></button><button bgcol="[0.2,0.5,0.9]" command="select" height="18" label="" left="122" top="257" width="18"><items>L_Cheek_Ctrl</items></button><button bgcol="[0.0,0.9,0.3]" command="select" height="16" label="" left="232" top="205" width="16"><items>TOP_Teeth_05_Ctrl
+				TOP_Teeth_Def_05_Ctrl</items></button><button bgcol="[0.0,0.9,0.3]" command="select" height="16" label="" left="250" top="205" width="16"><items>TOP_Teeth_04_Ctrl
+				TOP_Teeth_Def_04_Ctrl</items></button><button bgcol="[0.0,0.9,0.3]" command="select" height="16" label="" left="268" top="205" width="16"><items>TOP_Teeth_03_Ctrl
+				TOP_Teeth_Def_03_Ctrl</items></button><button bgcol="[0.0,0.9,0.3]" command="select" height="16" label="" left="286" top="205" width="16"><items>TOP_Teeth_02_Ctrl
+				TOP_Teeth_Def_02_Ctrl</items></button><button bgcol="[0.0,0.9,0.3]" command="select" height="16" label="" left="304" top="205" width="16"><items>TOP_Teeth_01_Ctrl
+				TOP_Teeth_Def_01_Ctrl</items></button><button bgcol="[0.0,0.9,0.3]" command="select" height="16" label="" left="232" top="223" width="16"><items>BOT_Teeth_05_Ctrl
+				BOT_Teeth_Def_05_Ctrl</items></button><button bgcol="[0.0,0.9,0.3]" command="select" height="16" label="" left="250" top="223" width="16"><items>BOT_Teeth_04_Ctrl
+				BOT_Teeth_Def_04_Ctrl</items></button><button bgcol="[0.0,0.9,0.3]" command="select" height="16" label="" left="268" top="223" width="16"><items>BOT_Teeth_03_Ctrl
+				BOT_Teeth_Def_03_Ctrl</items></button><button bgcol="[0.0,0.9,0.3]" command="select" height="16" label="" left="286" top="223" width="16"><items>BOT_Teeth_02_Ctrl
+				BOT_Teeth_Def_02_Ctrl</items></button><button bgcol="[0.0,0.9,0.3]" command="select" height="16" label="" left="304" top="223" width="16"><items>BOT_Teeth_01_Ctrl
+				BOT_Teeth_Def_01_Ctrl</items></button><button bgcol="[0.0,0.9,0.3]" command="select" height="10" label="" left="250" top="194" width="50"><items>TOP_Tooth_Main_Ctrl
+				TOP_Teeth_Main_Ctrl</items></button><button bgcol="[0.0,0.9,0.3]" command="select" height="10" label="" left="250" top="240" width="50"><items>BOT_Tooth_Main_Ctrl
+				BOT_Teeth_Main_Ctrl</items></button><button bgcol="[0.9,0.5,0.0]" command="select" height="16" label="" left="214" top="205" width="16"><items>TOP_Teeth_Def_01_Ctrl
+				TOP_Teeth_01_Ctrl
+				TOP_Teeth_Def_02_Ctrl
+				TOP_Teeth_02_Ctrl
+				TOP_Teeth_Def_03_Ctrl
+				TOP_Teeth_03_Ctrl
+				TOP_Teeth_Def_04_Ctrl
+				TOP_Teeth_04_Ctrl
+				TOP_Teeth_Def_05_Ctrl
+				TOP_Teeth_05_Ctrl</items></button><button bgcol="[0.9,0.5,0.0]" command="select" height="16" label="" left="214" top="223" width="16"><items>BOT_Teeth_Def_01_Ctrl
+				BOT_Teeth_01_Ctrl
+				BOT_Teeth_Def_02_Ctrl
+				BOT_Teeth_02_Ctrl
+				BOT_Teeth_Def_03_Ctrl
+				BOT_Teeth_03_Ctrl
+				BOT_Teeth_Def_04_Ctrl
+				BOT_Teeth_04_Ctrl
+				BOT_Teeth_Def_05_Ctrl
+				BOT_Teeth_05_Ctrl</items></button><button bgcol="[0.7,0.2,1.0]" command="select" height="14" label="" left="180" top="205" width="24"><items>TOP_Tooth_Main_Ctrl
+				TOP_Teeth_Main_Ctrl
+				BOT_Tooth_Main_Ctrl
+				BOT_Teeth_Main_Ctrl
+				TOP_Teeth_01_Ctrl
+				TOP_Teeth_02_Ctrl
+				TOP_Teeth_03_Ctrl
+				TOP_Teeth_04_Ctrl
+				TOP_Teeth_05_Ctrl
+				BOT_Teeth_01_Ctrl
+				BOT_Teeth_02_Ctrl
+				BOT_Teeth_03_Ctrl
+				BOT_Teeth_04_Ctrl
+				BOT_Teeth_05_Ctrl</items></button><button bgcol="[0.9,0.5,0.0]" command="select" height="18" label="" left="200" top="268" width="18"><items>Tongue_05_Ctrl
+				Tongue_04_Ctrl
+				Tongue_03_Ctrl
+				Tongue_02_Ctrl
+				Tongue_01_Ctrl
+				Tongue_05_FK_Ctrl
+				Tongue_04_FK_Ctrl
+				Tongue_03_FK_Ctrl
+				Tongue_02_FK_Ctrl
+				Tongue_01_FK_Ctrl</items></button><button bgcol="[0.9,0.3,0.6]" command="select" height="18" label="" left="220" top="268" width="18"><items>Tongue_05_Ctrl
+				Tongue_05_FK_Ctrl</items></button><button bgcol="[0.9,0.3,0.6]" command="select" height="18" label="" left="240" top="268" width="18"><items>Tongue_04_Ctrl
+				Tongue_04_FK_Ctrl</items></button><button bgcol="[0.9,0.3,0.6]" command="select" height="18" label="" left="260" top="268" width="18"><items>Tongue_03_Ctrl
+				Tongue_03_FK_Ctrl</items></button><button bgcol="[0.9,0.3,0.6]" command="select" height="18" label="" left="280" top="268" width="18"><items>Tongue_02_Ctrl
+				Tongue_02_FK_Ctrl</items></button><button bgcol="[0.9,0.3,0.6]" command="select" height="18" label="" left="300" top="268" width="18"><items>Tongue_01_Ctrl
+				Tongue_01_FK_Ctrl</items></button><button bgcol="[0.7,0.2,1.0]" command="select" height="14" label="" left="180" top="34" width="24"><items>R_Eye_Def_07_Ctrl
+				R_Eye_Def_08_Ctrl
+				R_Eye_Def_01_Ctrl
+				L_Eye_Def_07_Ctrl
+				L_Eye_Def_08_Ctrl
+				L_Eye_Def_01_Ctrl
+				R_Eye_Def_06_Ctrl
+				R_Eye_Def_09_Ctrl
+				R_Eye_Def_02_Ctrl
+				L_Eye_Def_06_Ctrl
+				L_Eye_Def_09_Ctrl
+				L_Eye_Def_02_Ctrl
+				R_Eye_Def_05_Ctrl
+				R_Eye_Def_04_Ctrl
+				R_Eye_Def_03_Ctrl
+				L_Eye_Def_05_Ctrl
+				L_Eye_Def_04_Ctrl
+				L_Eye_Def_03_Ctrl</items></button><button bgcol="[0.8,0.8,0.8]" command="select" height="18" label=" " left="209" top="34" width="18"><items>R_Eye_Def_07_Ctrl</items></button><button bgcol="[0.8,0.8,0.8]" command="select" height="18" label=" " left="229" top="34" width="18"><items>R_Eye_Def_08_Ctrl</items></button><button bgcol="[0.8,0.8,0.8]" command="select" height="18" label=" " left="249" top="34" width="18"><items>R_Eye_Def_01_Ctrl</items></button><button bgcol="[0.8,0.8,0.8]" command="select" height="18" label=" " left="277" top="34" width="18"><items>L_Eye_Def_07_Ctrl</items></button><button bgcol="[0.8,0.8,0.8]" command="select" height="18" label=" " left="297" top="34" width="18"><items>L_Eye_Def_08_Ctrl</items></button><button bgcol="[0.8,0.8,0.8]" command="select" height="18" label=" " left="317" top="34" width="18"><items>L_Eye_Def_01_Ctrl</items></button><button bgcol="[0.8,0.8,0.8]" command="select" height="18" label=" " left="209" top="56" width="18"><items>R_Eye_Def_06_Ctrl</items></button><button bgcol="[0.8,0.8,0.8]" command="select" height="18" label=" " left="229" top="56" width="18"><items>R_Eye_Def_09_Ctrl</items></button><button bgcol="[0.8,0.8,0.8]" command="select" height="18" label=" " left="249" top="56" width="18"><items>R_Eye_Def_02_Ctrl</items></button><button bgcol="[0.8,0.8,0.8]" command="select" height="18" label=" " left="277" top="56" width="18"><items>L_Eye_Def_06_Ctrl</items></button><button bgcol="[0.8,0.8,0.8]" command="select" height="18" label=" " left="297" top="56" width="18"><items>L_Eye_Def_09_Ctrl</items></button><button bgcol="[0.8,0.8,0.8]" command="select" height="18" label=" " left="317" top="56" width="18"><items>L_Eye_Def_02_Ctrl</items></button><button bgcol="[0.8,0.8,0.8]" command="select" height="18" label=" " left="209" top="80" width="18"><items>R_Eye_Def_05_Ctrl</items></button><button bgcol="[0.8,0.8,0.8]" command="select" height="18" label=" " left="229" top="80" width="18"><items>R_Eye_Def_04_Ctrl</items></button><button bgcol="[0.8,0.8,0.8]" command="select" height="18" label=" " left="249" top="80" width="18"><items>R_Eye_Def_03_Ctrl</items></button><button bgcol="[0.8,0.8,0.8]" command="select" height="18" label=" " left="277" top="80" width="18"><items>L_Eye_Def_05_Ctrl</items></button><button bgcol="[0.8,0.8,0.8]" command="select" height="18" label=" " left="297" top="80" width="18"><items>L_Eye_Def_04_Ctrl</items></button><button bgcol="[0.8,0.8,0.8]" command="select" height="18" label=" " left="317" top="80" width="18"><items>L_Eye_Def_03_Ctrl</items></button><button bgcol="[0.7,0.2,1.0]" command="select" height="14" label="" left="180" top="118" width="24"><items>R_Eye_UpperLid_05_Ctrl
+				R_Eye_UpperLid_04_Ctrl
+				R_Eye_UpperLid_03_Ctrl
+				R_Eye_UpperLid_02_Ctrl
+				R_Eye_UpperLid_01_Ctrl
+				L_Eye_UpperLid_05_Ctrl
+				L_Eye_UpperLid_04_Ctrl
+				L_Eye_UpperLid_03_Ctrl
+				L_Eye_UpperLid_02_Ctrl
+				L_Eye_UpperLid_01_Ctrl
+				R_Eye_LowerLid_05_Ctrl
+				R_Eye_LowerLid_04_Ctrl
+				R_Eye_LowerLid_03_Ctrl
+				R_Eye_LowerLid_02_Ctrl
+				R_Eye_LowerLid_01_Ctrl
+				L_Eye_LowerLid_05_Ctrl
+				L_Eye_LowerLid_04_Ctrl
+				L_Eye_LowerLid_03_Ctrl
+				L_Eye_LowerLid_02_Ctrl
+				L_Eye_LowerLid_01_Ctrl</items></button><button bgcol="[0.9,0.5,0.0]" command="select" height="13" label=" " left="215" top="118" width="30"><items>R_Eye_UpperLid_05_Ctrl
+				R_Eye_UpperLid_04_Ctrl
+				R_Eye_UpperLid_03_Ctrl
+				R_Eye_UpperLid_02_Ctrl
+				R_Eye_UpperLid_01_Ctrl</items></button><button bgcol="[0.0,0.0,0.9]" command="select" height="13" label=" " left="195" top="135" width="13"><items>R_Eye_UpperLid_05_Ctrl</items></button><button bgcol="[0.0,0.0,0.9]" command="select" height="13" label=" " left="209" top="135" width="13"><items>R_Eye_UpperLid_04_Ctrl</items></button><button bgcol="[0.0,0.0,0.9]" command="select" height="13" label=" " left="223" top="135" width="13"><items>R_Eye_UpperLid_03_Ctrl</items></button><button bgcol="[0.0,0.0,0.9]" command="select" height="13" label=" " left="237" top="135" width="13"><items>R_Eye_UpperLid_02_Ctrl</items></button><button bgcol="[0.0,0.0,0.9]" command="select" height="13" label=" " left="251" top="135" width="13"><items>R_Eye_UpperLid_01_Ctrl</items></button><button bgcol="[0.9,0.5,0.0]" command="select" height="13" label=" " left="290" top="118" width="30"><items>L_Eye_UpperLid_05_Ctrl
+				L_Eye_UpperLid_04_Ctrl
+				L_Eye_UpperLid_03_Ctrl
+				L_Eye_UpperLid_02_Ctrl
+				L_Eye_UpperLid_01_Ctrl</items></button><button bgcol="[0.0,0.0,0.9]" command="select" height="13" label=" " left="271" top="135" width="13"><items>L_Eye_UpperLid_05_Ctrl</items></button><button bgcol="[0.0,0.0,0.9]" command="select" height="13" label=" " left="285" top="135" width="13"><items>L_Eye_UpperLid_04_Ctrl</items></button><button bgcol="[0.0,0.0,0.9]" command="select" height="13" label=" " left="299" top="135" width="13"><items>L_Eye_UpperLid_03_Ctrl</items></button><button bgcol="[0.0,0.0,0.9]" command="select" height="13" label=" " left="313" top="135" width="13"><items>L_Eye_UpperLid_02_Ctrl</items></button><button bgcol="[0.0,0.0,0.9]" command="select" height="13" label=" " left="327" top="135" width="13"><items>L_Eye_UpperLid_01_Ctrl</items></button><button bgcol="[0.9,0.5,0.0]" command="select" height="13" label=" " left="215" top="168" width="30"><items>R_Eye_LowerLid_05_Ctrl
+				R_Eye_LowerLid_04_Ctrl
+				R_Eye_LowerLid_03_Ctrl
+				R_Eye_LowerLid_02_Ctrl
+				R_Eye_LowerLid_01_Ctrl</items></button><button bgcol="[0.9,0.0,0.0]" command="select" height="13" label=" " left="195" top="152" width="13"><items>R_Eye_LowerLid_05_Ctrl</items></button><button bgcol="[0.9,0.0,0.0]" command="select" height="13" label=" " left="209" top="152" width="13"><items>R_Eye_LowerLid_04_Ctrl</items></button><button bgcol="[0.9,0.0,0.0]" command="select" height="13" label=" " left="223" top="152" width="13"><items>R_Eye_LowerLid_03_Ctrl</items></button><button bgcol="[0.9,0.0,0.0]" command="select" height="13" label=" " left="237" top="152" width="13"><items>R_Eye_LowerLid_02_Ctrl</items></button><button bgcol="[0.9,0.0,0.0]" command="select" height="13" label=" " left="251" top="152" width="13"><items>R_Eye_LowerLid_01_Ctrl</items></button><button bgcol="[0.9,0.5,0.0]" command="select" height="13" label=" " left="290" top="168" width="30"><items>L_Eye_LowerLid_05_Ctrl
+				L_Eye_LowerLid_04_Ctrl
+				L_Eye_LowerLid_03_Ctrl
+				L_Eye_LowerLid_02_Ctrl
+				L_Eye_LowerLid_01_Ctrl</items></button><button bgcol="[0.9,0.0,0.0]" command="select" height="13" label=" " left="271" top="152" width="13"><items>L_Eye_LowerLid_05_Ctrl</items></button><button bgcol="[0.9,0.0,0.0]" command="select" height="13" label=" " left="285" top="152" width="13"><items>L_Eye_LowerLid_04_Ctrl</items></button><button bgcol="[0.9,0.0,0.0]" command="select" height="13" label=" " left="299" top="152" width="13"><items>L_Eye_LowerLid_03_Ctrl</items></button><button bgcol="[0.9,0.0,0.0]" command="select" height="13" label=" " left="313" top="152" width="13"><items>L_Eye_LowerLid_02_Ctrl</items></button><button bgcol="[0.9,0.0,0.0]" command="select" height="13" label=" " left="327" top="152" width="13"><items>L_Eye_LowerLid_01_Ctrl</items></button></tab><tab title="Mouth"><button bgcol="[0.1,0.9,0.7]" command="setAttrib" height="15" label="0" left="82" top="9" width="47"><item value="coming_soon">Mouth_Blend_Ctrl.Phoneme_Ee_R</item><item value="coming_soon">Mouth_Blend_Ctrl.Smile_R</item><item value="coming_soon">Mouth_Blend_Ctrl.Frown_R</item><item value="coming_soon">Mouth_Blend_Ctrl.Sneer_R</item><item value="coming_soon">Mouth_Blend_Ctrl.MouthCornerL</item><item value="coming_soon">Mouth_Blend_Ctrl.Mouth_Pull_R</item><item value="coming_soon">Mouth_Blend_Ctrl.Cheek_Puff_R</item></button><button bgcol="[0.7,0.7,0.7]" command="setAttrib" height="15" label="0" left="178" top="9" width="47"><item value="coming_soon">Mouth_Blend_Ctrl.Cheek_Puff_R</item><item value="coming_soon">Mouth_Blend_Ctrl.Phoneme_Ee_L</item><item value="coming_soon">Mouth_Blend_Ctrl.Phoneme_Ee_R</item><item value="coming_soon">Mouth_Blend_Ctrl.Phoneme_FV</item><item value="coming_soon">Mouth_Blend_Ctrl.Phoneme_BMP</item><item value="coming_soon">Mouth_Blend_Ctrl.Phoneme_Oo</item><item value="coming_soon">Mouth_Blend_Ctrl.Phoneme_Oh</item><item value="coming_soon">Mouth_Blend_Ctrl.Smile_L</item><item value="coming_soon">Mouth_Blend_Ctrl.Smile_R</item><item value="coming_soon">Mouth_Blend_Ctrl.Smile_Toothy</item><item value="coming_soon">Mouth_Blend_Ctrl.Frown_L</item><item value="coming_soon">Mouth_Blend_Ctrl.Frown_R</item><item value="coming_soon">Mouth_Blend_Ctrl.Sneer_L</item><item value="coming_soon">Mouth_Blend_Ctrl.Sneer_R</item><item value="coming_soon">Mouth_Blend_Ctrl.MouthCornerL</item><item value="coming_soon">Mouth_Blend_Ctrl.MouthCornerR</item><item value="coming_soon">Mouth_Blend_Ctrl.Mouth_Pull_L</item><item value="coming_soon">Mouth_Blend_Ctrl.Mouth_Pull_R</item><item value="coming_soon">Mouth_Blend_Ctrl.Cheek_Puff_L</item></button><button bgcol="[0.9,0.7,0.1]" command="setAttrib" height="15" label="0" left="274" top="9" width="47"><item value="coming_soon">Mouth_Blend_Ctrl.Phoneme_Ee_L</item><item value="coming_soon">Mouth_Blend_Ctrl.Smile_L</item><item value="coming_soon">Mouth_Blend_Ctrl.Frown_L</item><item value="coming_soon">Mouth_Blend_Ctrl.Sneer_L</item><item value="coming_soon">Mouth_Blend_Ctrl.MouthCornerL</item><item value="coming_soon">Mouth_Blend_Ctrl.Mouth_Pull_L</item><item value="coming_soon">Mouth_Blend_Ctrl.Cheek_Puff_L</item></button><button bgcol="[0.1,0.7,0.5]" command="adjustAttrib" height="17" label="-" left="82" top="25" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Smile_R</item></button><button bgcol="[0.1,0.9,0.7]" command="adjustAttrib" height="17" label="+" left="106" top="25" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Smile_R</item></button><button bgcol="[0.7,0.7,0.7]" command="adjustAttrib" height="17" label="-" left="178" top="25" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Smile_R</item><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Smile_L</item></button><button bgcol="[0.8,0.8,0.8]" command="adjustAttrib" height="17" label="+" left="202" top="25" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Smile_R</item><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Smile_L</item></button><button bgcol="[0.8,0.6,0.1]" command="adjustAttrib" height="17" label="-" left="274" top="25" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Smile_L</item></button><button bgcol="[0.9,0.7,0.1]" command="adjustAttrib" height="17" label="+" left="298" top="25" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Smile_L</item></button><button bgcol="[0.1,0.7,0.5]" command="adjustAttrib" height="17" label="-" left="82" top="57" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Frown_R</item></button><button bgcol="[0.1,0.9,0.7]" command="adjustAttrib" height="17" label="+" left="106" top="57" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Frown_R</item></button><button bgcol="[0.7,0.7,0.7]" command="adjustAttrib" height="17" label="-" left="178" top="57" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Frown_R</item><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Frown_L</item></button><button bgcol="[0.8,0.8,0.8]" command="adjustAttrib" height="17" label="+" left="202" top="57" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Frown_R</item><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Frown_L</item></button><button bgcol="[0.8,0.6,0.1]" command="adjustAttrib" height="17" label="-" left="274" top="57" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Frown_L</item></button><button bgcol="[0.9,0.7,0.1]" command="adjustAttrib" height="17" label="+" left="298" top="57" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Frown_L</item></button><button bgcol="[0.1,0.7,0.5]" command="adjustAttrib" height="17" label="-" left="82" top="89" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Sneer_R</item></button><button bgcol="[0.1,0.9,0.7]" command="adjustAttrib" height="17" label="+" left="106" top="89" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Sneer_R</item></button><button bgcol="[0.7,0.7,0.7]" command="adjustAttrib" height="17" label="-" left="178" top="89" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Sneer_R</item><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Sneer_L</item></button><button bgcol="[0.8,0.8,0.8]" command="adjustAttrib" height="17" label="+" left="202" top="89" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Sneer_R</item><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Sneer_L</item></button><button bgcol="[0.8,0.6,0.1]" command="adjustAttrib" height="17" label="-" left="274" top="89" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Sneer_L</item></button><button bgcol="[0.9,0.7,0.1]" command="adjustAttrib" height="17" label="+" left="298" top="89" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Sneer_L</item></button><button bgcol="[0.1,0.7,0.5]" command="adjustAttrib" height="17" label="-" left="82" top="121" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.MouthCornerR</item></button><button bgcol="[0.1,0.9,0.7]" command="adjustAttrib" height="17" label="+" left="106" top="121" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.MouthCornerR</item></button><button bgcol="[0.7,0.7,0.7]" command="adjustAttrib" height="17" label="-" left="178" top="121" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.MouthCornerR</item><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.MouthCornerL</item></button><button bgcol="[0.8,0.8,0.8]" command="adjustAttrib" height="17" label="+" left="202" top="121" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.MouthCornerR</item><item max="0.1" min="1.0">Mouth_Blend_Ctrl.MouthCornerL</item></button><button bgcol="[0.8,0.6,0.1]" command="adjustAttrib" height="17" label="-" left="274" top="121" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.MouthCornerL</item></button><button bgcol="[0.9,0.7,0.1]" command="adjustAttrib" height="17" label="+" left="298" top="121" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.MouthCornerL</item></button><button bgcol="[0.7,0.7,0.7]" command="adjustAttrib" height="17" label="-" left="178" top="153" width="23"><item max="-0.1" min="-1.0">Mouth_Blend_Ctrl.Mouth_Pull</item></button><button bgcol="[0.8,0.8,0.8]" command="adjustAttrib" height="17" label="+" left="202" top="153" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Mouth_Pull</item></button><button bgcol="[0.1,0.7,0.5]" command="adjustAttrib" height="17" label="-" left="82" top="185" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Cheek_Puff_R</item></button><button bgcol="[0.1,0.9,0.7]" command="adjustAttrib" height="17" label="+" left="106" top="185" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Cheek_Puff_R</item></button><button bgcol="[0.7,0.7,0.7]" command="adjustAttrib" height="17" label="-" left="178" top="185" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Cheek_Puff_R</item><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Cheek_Puff_L</item></button><button bgcol="[0.8,0.8,0.8]" command="adjustAttrib" height="17" label="+" left="202" top="185" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Cheek_Puff_R</item><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Cheek_Puff_L</item></button><button bgcol="[0.8,0.6,0.1]" command="adjustAttrib" height="17" label="-" left="274" top="185" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Cheek_Puff_L</item></button><button bgcol="[0.9,0.7,0.1]" command="adjustAttrib" height="17" label="+" left="298" top="185" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Cheek_Puff_L</item></button><button bgcol="[0.1,0.7,0.5]" command="adjustAttrib" height="17" label="-" left="82" top="217" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Phoneme_Ee_R</item></button><button bgcol="[0.1,0.9,0.7]" command="adjustAttrib" height="17" label="+" left="106" top="217" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Phoneme_Ee_R</item></button><button bgcol="[0.7,0.7,0.7]" command="adjustAttrib" height="17" label="-" left="178" top="217" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Phoneme_Ee_R</item><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Phoneme_Ee_L</item></button><button bgcol="[0.8,0.8,0.8]" command="adjustAttrib" height="17" label="+" left="202" top="217" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Phoneme_Ee_R</item><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Phoneme_Ee_L</item></button><button bgcol="[0.8,0.6,0.1]" command="adjustAttrib" height="17" label="-" left="274" top="217" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Phoneme_Ee_L</item></button><button bgcol="[0.9,0.7,0.1]" command="adjustAttrib" height="17" label="+" left="298" top="217" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Phoneme_Ee_L</item></button><button bgcol="[0.1,0.2,0.3]" command="adjustAttrib" height="17" label="-" left="82" top="249" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Phoneme_FV</item></button><button bgcol="[0.1,0.2,0.5]" command="adjustAttrib" height="17" label="FV" left="106" top="249" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Phoneme_FV</item></button><button bgcol="[0.2,0.1,0.1]" command="adjustAttrib" height="17" label="-" left="274" top="249" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Phoneme_BMP</item></button><button bgcol="[0.3,0.0,0.0]" command="adjustAttrib" height="17" label="BMP" left="298" top="249" width="30"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Phoneme_BMP</item></button><button bgcol="[0.2,0.2,0.2]" command="adjustAttrib" height="17" label="-" left="178" top="249" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Phoneme_Oo</item></button><button bgcol="[0.3,0.3,0.3]" command="adjustAttrib" height="17" label="Oo" left="202" top="249" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Phoneme_Oo</item></button><button bgcol="[0.3,0.0,0.3]" command="adjustAttrib" height="17" label="-" left="178" top="281" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Phoneme_Oh</item></button><button bgcol="[0.4,0.1,0.4]" command="adjustAttrib" height="17" label="Oh" left="202" top="281" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Phoneme_Oh</item></button><button bgcol="[0.7,0.7,0.7]" command="adjustAttrib" height="17" label="-" left="82" top="281" width="23"><item max="-0.1" min="0.0">Mouth_Blend_Ctrl.Smile_Toothy</item></button><button bgcol="[0.8,0.8,0.8]" command="adjustAttrib" height="17" label="+" left="106" top="281" width="23"><item max="0.1" min="1.0">Mouth_Blend_Ctrl.Smile_Toothy</item></button></tab><tab title="BrowTidy"><button bgcol="[0.1,0.9,0.7]" command="setAttrib" height="15" label="0" left="82" top="9" width="47"><item value="coming_soon">Brow_Blend_Ctrl.BrowInOutR</item><item value="coming_soon">Brow_Blend_Ctrl.BrowUpDownR</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Squeeze_R</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Sad_R</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Worried_R</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Angry_R</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Surprised_R</item></button><button bgcol="[0.7,0.7,0.7]" command="setAttrib" height="15" label="0" left="178" top="9" width="47"><item value="coming_soon">Brow_Blend_Ctrl.BrowInOutR</item><item value="coming_soon">Brow_Blend_Ctrl.BrowInOutL</item><item value="coming_soon">Brow_Blend_Ctrl.BrowUpDownR</item><item value="coming_soon">Brow_Blend_Ctrl.BrowUpDownL</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Squeeze_R</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Squeeze_L</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Sad_R</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Sad_L</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Worried_R</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Worried_L</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Angry_R</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Angry_L</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Surprised_R</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Surprised_L</item></button><button bgcol="[0.9,0.7,0.1]" command="setAttrib" height="15" label="0" left="274" top="9" width="47"><item value="coming_soon">Brow_Blend_Ctrl.BrowInOutL</item><item value="coming_soon">Brow_Blend_Ctrl.BrowUpDownL</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Squeeze_L</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Sad_L</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Worried_L</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Angry_L</item><item value="coming_soon">Brow_Blend_Ctrl.Brow_Surprised_L</item></button><button bgcol="[0.1,0.7,0.5]" command="adjustAttrib" height="17" label="-" left="82" top="25" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.BrowInOutR</item></button><button bgcol="[0.1,0.9,0.7]" command="adjustAttrib" height="17" label="+" left="106" top="25" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.BrowInOutR</item></button><button bgcol="[0.7,0.7,0.7]" command="adjustAttrib" height="17" label="-" left="178" top="25" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.BrowInOutR</item><item max="-0.1" min="0.0">Brow_Blend_Ctrl.BrowInOutL</item></button><button bgcol="[0.8,0.8,0.8]" command="adjustAttrib" height="17" label="+" left="202" top="25" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.BrowInOutR</item><item max="0.1" min="1.0">Brow_Blend_Ctrl.BrowInOutL</item></button><button bgcol="[0.8,0.6,0.1]" command="adjustAttrib" height="17" label="-" left="274" top="25" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.BrowInOutL</item></button><button bgcol="[0.9,0.7,0.1]" command="adjustAttrib" height="17" label="+" left="298" top="25" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.BrowInOutL</item></button><button bgcol="[0.1,0.7,0.5]" command="adjustAttrib" height="17" label="-" left="82" top="57" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.BrowUpDownR</item></button><button bgcol="[0.1,0.9,0.7]" command="adjustAttrib" height="17" label="+" left="106" top="57" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.BrowUpDownR</item></button><button bgcol="[0.7,0.7,0.7]" command="adjustAttrib" height="17" label="-" left="178" top="57" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.BrowUpDownR</item><item max="-0.1" min="0.0">Brow_Blend_Ctrl.BrowUpDownL</item></button><button bgcol="[0.8,0.8,0.8]" command="adjustAttrib" height="17" label="+" left="202" top="57" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.BrowUpDownR</item><item max="0.1" min="1.0">Brow_Blend_Ctrl.BrowUpDownL</item></button><button bgcol="[0.8,0.6,0.1]" command="adjustAttrib" height="17" label="-" left="274" top="57" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.BrowUpDownL</item></button><button bgcol="[0.9,0.7,0.1]" command="adjustAttrib" height="17" label="+" left="298" top="57" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.BrowUpDownL</item></button><button bgcol="[0.1,0.7,0.5]" command="adjustAttrib" height="17" label="-" left="82" top="89" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Squeeze_R</item></button><button bgcol="[0.1,0.9,0.7]" command="adjustAttrib" height="17" label="+" left="106" top="89" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Squeeze_R</item></button><button bgcol="[0.7,0.7,0.7]" command="adjustAttrib" height="17" label="-" left="178" top="89" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Squeeze_R</item><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Squeeze_L</item></button><button bgcol="[0.8,0.8,0.8]" command="adjustAttrib" height="17" label="+" left="202" top="89" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Squeeze_R</item><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Squeeze_L</item></button><button bgcol="[0.8,0.6,0.1]" command="adjustAttrib" height="17" label="-" left="274" top="89" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Squeeze_L</item></button><button bgcol="[0.9,0.7,0.1]" command="adjustAttrib" height="17" label="+" left="298" top="89" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Squeeze_L</item></button><button bgcol="[0.1,0.7,0.5]" command="adjustAttrib" height="17" label="-" left="82" top="121" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Sad_R</item></button><button bgcol="[0.1,0.9,0.7]" command="adjustAttrib" height="17" label="+" left="106" top="121" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Sad_R</item></button><button bgcol="[0.7,0.7,0.7]" command="adjustAttrib" height="17" label="-" left="178" top="121" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Sad_R</item><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Sad_L</item></button><button bgcol="[0.8,0.8,0.8]" command="adjustAttrib" height="17" label="+" left="202" top="121" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Sad_R</item><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Sad_L</item></button><button bgcol="[0.8,0.6,0.1]" command="adjustAttrib" height="17" label="-" left="274" top="121" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Sad_L</item></button><button bgcol="[0.9,0.7,0.1]" command="adjustAttrib" height="17" label="+" left="298" top="121" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Sad_L</item></button><button bgcol="[0.1,0.7,0.5]" command="adjustAttrib" height="17" label="-" left="82" top="153" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Worried_R</item></button><button bgcol="[0.1,0.9,0.7]" command="adjustAttrib" height="17" label="+" left="106" top="153" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Worried_R</item></button><button bgcol="[0.7,0.7,0.7]" command="adjustAttrib" height="17" label="-" left="178" top="153" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Worried_R</item><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Worried_L</item></button><button bgcol="[0.8,0.8,0.8]" command="adjustAttrib" height="17" label="+" left="202" top="153" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Worried_R</item><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Worried_L</item></button><button bgcol="[0.8,0.6,0.1]" command="adjustAttrib" height="17" label="-" left="274" top="153" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Worried_L</item></button><button bgcol="[0.9,0.7,0.1]" command="adjustAttrib" height="17" label="+" left="298" top="153" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Worried_L</item></button><button bgcol="[0.1,0.7,0.5]" command="adjustAttrib" height="17" label="-" left="82" top="185" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Angry_R</item></button><button bgcol="[0.1,0.9,0.7]" command="adjustAttrib" height="17" label="+" left="106" top="185" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Angry_R</item></button><button bgcol="[0.7,0.7,0.7]" command="adjustAttrib" height="17" label="-" left="178" top="185" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Angry_R</item><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Angry_L</item></button><button bgcol="[0.8,0.8,0.8]" command="adjustAttrib" height="17" label="+" left="202" top="185" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Angry_R</item><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Angry_L</item></button><button bgcol="[0.8,0.6,0.1]" command="adjustAttrib" height="17" label="-" left="274" top="185" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Angry_L</item></button><button bgcol="[0.9,0.7,0.1]" command="adjustAttrib" height="17" label="+" left="298" top="185" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Angry_L</item></button><button bgcol="[0.1,0.7,0.5]" command="adjustAttrib" height="17" label="-" left="82" top="217" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Surprised_R</item></button><button bgcol="[0.1,0.9,0.7]" command="adjustAttrib" height="17" label="+" left="106" top="217" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Surprised_R</item></button><button bgcol="[0.7,0.7,0.7]" command="adjustAttrib" height="17" label="-" left="178" top="217" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Surprised_R</item><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Surprised_L</item></button><button bgcol="[0.8,0.8,0.8]" command="adjustAttrib" height="17" label="+" left="202" top="217" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Surprised_R</item><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Surprised_L</item></button><button bgcol="[0.8,0.6,0.1]" command="adjustAttrib" height="17" label="-" left="274" top="217" width="23"><item max="-0.1" min="0.0">Brow_Blend_Ctrl.Brow_Surprised_L</item></button><button bgcol="[0.9,0.7,0.1]" command="adjustAttrib" height="17" label="+" left="298" top="217" width="23"><item max="0.1" min="1.0">Brow_Blend_Ctrl.Brow_Surprised_L</item></button><button bgcol="[0.9,0.7,0.7]" command="switchAttrib" height="20" label="Face Deform" left="10" top="90" width="108"><item value="coming_soon">ControlVis_Ctrl.faceDeformers</item></button><button bgcol="[0.7,0.9,0.7]" command="switchAttrib" height="20" label="Teeth Deform" left="10" top="110" width="108"><item value="coming_soon">ControlVis_Ctrl.teethDeformers</item></button><button bgcol="[0.9,0.7,0.9]" command="switchAttrib" height="20" label="Eye Lids" left="10" top="90" width="108"><item value="coming_soon">R_Eye_Transform.eyeLidCtrlVis</item><item value="coming_soon">L_Eye_Transform.eyeLidCtrlVis</item></button><button bgcol="[0.9,0.9,0.7]" command="switchAttrib" height="20" label="Eye Deform" left="10" top="90" width="108"><item value="coming_soon">R_Eye_Transform.eyeDeformerCtrlVis</item><item value="coming_soon">L_Eye_Transform.eyeDeformerCtrlVis</item></button></tab></window>

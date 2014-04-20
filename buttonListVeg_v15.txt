@@ -1,0 +1,479 @@
+#label:.....:top:.....:left:.....:height:......:width:.....:bgcol:[...,...,...]:command:select or another command included in the main py file:items:....., ....., etc
+
+window:Vegitales Picker:width:350:height:575
+
+tab:Main:bgimage:images/backDropMain_3.png
+
+# all Spine
+label::top:50:left:252:height:20:width:28:bgcol:[0.9,0.0,0.0]:command:select:items:Head_Ctrl
+label::top:13:left:252:height:20:width:28:bgcol:[0.9,0.0,0.0]:command:select:items:stem_1x
+
+label::top:194:left:254:height:20:width:26:bgcol:[0.9,0.0,0.0]:command:select:items:Head_Mid_Ctrl
+
+label::top:260:left:252:height:20:width:28:bgcol:[0.9,0.0,0.0]:command:select:items:Waist_Ctrl
+
+label::top:288:left:252:height:20:width:28:bgcol:[0.9,0.0,0.0]:command:select:items:Ground_Ctrl
+label::top:310:left:252:height:20:width:28:bgcol:[0.96,0.5,0.0]:command:select:items:Jump_Ctrl
+label::top:342:left:253:height:16:width:25:bgcol:[0.9,0.9,0.0]:command:select:items:Base_Ctrl
+label::top:371:left:249:height:18:width:30:bgcol:[0.9,0.9,0.0]:command:select:items:Transform_Ctrl
+
+label:Body Only:top:394:left:235:height:20:width:60:bgcol:[0.9,0.9,0.0]:command:select:items:Transform_Ctrl,Base_Ctrl,Jump_Ctrl,Ground_Ctrl,Waist_Ctrl,Head_Mid_Ctrl,stem_1x,Head_Ctrl,R_Hand_Ctrl,L_Hand_Ctrl,CTR_Brow_Ctrl,R_Brow_03_Ctrl,R_Brow_02_Ctrl,R_Brow_01_Ctrl,L_Brow_03_Ctrl,L_Brow_02_Ctrl,L_Brow_01_Ctrl,R_Eye_LookAt_Ctrl,Eye_LookAt_Ctrl,L_Eye_LookAt_Ctrl,Nose_01_Ctrl,Nose_02_Ctrl,Nose_03_Ctrl,CTR_Nose_Ctrl,BOT_Lip_Ctrl,R_BOT_Lip_Ctrl,L_BOT_Lip_Ctrl,TOP_Lip_Ctrl,R_TOP_Lip_Ctrl,L_TOP_Lip_Ctrl,L_MouthCorner_Ctrl,R_MouthCorner_Ctrl, TOP_Mouth_Ctrl,CTR_Mouth_Ctrl,Jaw_Ctrl, BOT_Mouth_Ctrl
+# hands
+#label::top:318:left:15:height:14:width:24:bgcol:[0.7,0.2,1.0]:command:select:items:R_Hand_Ctrl,L_Hand_Ctrl
+label::top:225:left:215:height:20:width:24:bgcol:[0.9,0.0,0.0]:command:select:items:R_Hand_Ctrl
+label::top:225:left:290:height:20:width:24:bgcol:[0.9,0.0,0.0]:command:select:items:L_Hand_Ctrl
+
+label:no hop:top:394:left:109:height:20:width:40:bgcol:[0.9,0.4,0.3]:command:select:items:Waist_Ctrl,Head_Mid_Ctrl,stem_1x,R_Hand_Ctrl,L_Hand_Ctrl,CTR_Brow_Ctrl,R_Brow_03_Ctrl,R_Brow_02_Ctrl,R_Brow_01_Ctrl,L_Brow_03_Ctrl,L_Brow_02_Ctrl,L_Brow_01_Ctrl,R_Eye_LookAt_Ctrl,Eye_LookAt_Ctrl,L_Eye_LookAt_Ctrl,Nose_01_Ctrl,Nose_02_Ctrl,Nose_03_Ctrl,CTR_Nose_Ctrl,BOT_Lip_Ctrl,R_BOT_Lip_Ctrl,L_BOT_Lip_Ctrl,TOP_Lip_Ctrl,R_TOP_Lip_Ctrl,L_TOP_Lip_Ctrl,L_MouthCorner_Ctrl,R_MouthCorner_Ctrl, TOP_Mouth_Ctrl,CTR_Mouth_Ctrl,Jaw_Ctrl, BOT_Mouth_Ctrl
+
+#Transform_Ctrl, Ground_Ctrl, Jump_Ctrl, Base_Ctrl, Head_Ctrl
+#ALL
+# // ALL without Base and Hop ctrl (Transform_Ctrl, Ground_Ctrl, Jump_Ctrl, Base_Ctrl  and Head_Ctrl
+# // All Eyes + Brows
+# Left Eye
+# Right Eye
+# // Left Brow
+# // Right Brow
+# // All Mouth
+# // Teeth (only)
+# // Tongue (only)
+# Body (only) (body only )
+# Body + Eyes  (without mouth)
+
+# all body
+# BRING BACK!
+#label::top:245:left:250:height:18:width:54:bgcol:[0.9,0.5,0.0]:command:select:items:Base_Ctrl,Transform_Ctrl,Head_Ctrl,stem_1x,Head_Mid_Ctrl,Waist_Ctrl,Jump_Ctrl,Ground_Ctrl
+
+
+# brows
+label::top:31:left:15:height:14:width:24:bgcol:[0.7,0.2,1.0]:command:select:items:CTR_Brow_Ctrl,R_Brow_03_Ctrl,R_Brow_02_Ctrl,R_Brow_01_Ctrl,L_Brow_03_Ctrl,L_Brow_02_Ctrl,L_Brow_01_Ctrl
+# brow right
+label::top:18:left:57:height:14:width:30:bgcol:[0.9,0.5,0.0]:command:select:items:R_Brow_03_Ctrl,R_Brow_02_Ctrl,R_Brow_01_Ctrl
+label::top:36:left:50:height:14:width:14:bgcol:[0.1,0.9,0.7]:command:select:items:R_Brow_03_Ctrl
+label::top:36:left:65:height:14:width:14:bgcol:[0.1,0.9,0.7]:command:select:items:R_Brow_02_Ctrl
+label::top:36:left:80:height:14:width:14:bgcol:[0.1,0.9,0.7]:command:select:items:R_Brow_01_Ctrl
+# brow middle
+label::top:32:left:100:height:14:width:14:bgcol:[0.1,0.9,0.7]:command:select:items:CTR_Brow_Ctrl
+# brow left
+label::top:18:left:127:height:14:width:30:bgcol:[0.9,0.5,0.0]:command:select:items:L_Brow_03_Ctrl,L_Brow_02_Ctrl,L_Brow_01_Ctrl
+label::top:36:left:150:height:14:width:14:bgcol:[0.1,0.9,0.7]:command:select:items:L_Brow_03_Ctrl
+label::top:36:left:135:height:14:width:14:bgcol:[0.1,0.9,0.7]:command:select:items:L_Brow_02_Ctrl
+label::top:36:left:120:height:14:width:14:bgcol:[0.1,0.9,0.7]:command:select:items:L_Brow_01_Ctrl
+
+# eye lookat
+label::top:80:left:15:height:14:width:24:bgcol:[0.7,0.2,1.0]:command:select:items:R_Eye_LookAt_Ctrl,Eye_LookAt_Ctrl,L_Eye_LookAt_Ctrl
+label::top:70:left:60:height:18:width:18:bgcol:[1.0,0.8,0.1]:command:select:items:R_Eye_LookAt_Ctrl
+label::top:68:left:80:height:22:width:25:bgcol:[0.9,0.8,0.1]:command:select:items:Eye_LookAt_Ctrl
+label::top:70:left:107:height:18:width:18:bgcol:[1.0,0.8,0.1]:command:select:items:L_Eye_LookAt_Ctrl
+
+# nose
+label::top:123:left:15:height:14:width:24:bgcol:[0.7,0.2,1.0]:command:select:items:Nose_01_Ctrl,Nose_02_Ctrl,Nose_03_Ctrl,CTR_Nose_Ctrl
+label::top:115:left:60:height:18:width:18:bgcol:[0.9,0.1,0.1]:command:select:items:Nose_01_Ctrl
+label::top:115:left:80:height:18:width:18:bgcol:[0.9,0.1,0.1]:command:select:items:Nose_02_Ctrl
+label::top:115:left:100:height:18:width:18:bgcol:[0.9,0.1,0.1]:command:select:items:Nose_03_Ctrl
+label::top:115:left:120:height:18:width:18:bgcol:[0.1,0.9,0.9]:command:select:items:CTR_Nose_Ctrl
+
+# lips stuff
+label::top:171:left:15:height:14:width:24:bgcol:[0.7,0.2,1.0]:command:select:items:BOT_Lip_Ctrl,R_BOT_Lip_Ctrl,L_BOT_Lip_Ctrl,TOP_Lip_Ctrl,R_TOP_Lip_Ctrl,L_TOP_Lip_Ctrl,L_MouthCorner_Ctrl,R_MouthCorner_Ctrl
+label::top:175:left:70:height:18:width:18:bgcol:[0.0,0.9,0.9]:command:select:items:R_TOP_Lip_Ctrl
+label::top:175:left:90:height:18:width:18:bgcol:[0.0,0.9,0.9]:command:select:items:TOP_Lip_Ctrl
+label::top:175:left:110:height:18:width:18:bgcol:[0.0,0.9,0.9]:command:select:items:L_TOP_Lip_Ctrl
+
+label::top:195:left:70:height:18:width:18:bgcol:[0.0,0.9,0.9]:command:select:items:R_BOT_Lip_Ctrl
+label::top:195:left:90:height:18:width:18:bgcol:[0.0,0.9,0.9]:command:select:items:BOT_Lip_Ctrl
+label::top:195:left:110:height:18:width:18:bgcol:[0.0,0.9,0.9]:command:select:items:L_BOT_Lip_Ctrl
+
+label::top:185:left:50:height:18:width:18:bgcol:[0.0,0.9,0.9]:command:select:items:R_MouthCorner_Ctrl
+label::top:185:left:130:height:18:width:18:bgcol:[0.0,0.9,0.9]:command:select:items:L_MouthCorner_Ctrl
+
+# lips multi
+label::top:161:left:80:height:12:width:36:bgcol:[0.9,0.5,0.0]:command:select:items:TOP_Lip_Ctrl, R_TOP_Lip_Ctrl, L_TOP_Lip_Ctrl
+label::top:215:left:80:height:12:width:36:bgcol:[0.9,0.5,0.0]:command:select:items:BOT_Lip_Ctrl,R_BOT_Lip_Ctrl,L_BOT_Lip_Ctrl
+
+# mouth
+label::top:257:left:15:height:14:width:24:bgcol:[0.7,0.2,1.0]:command:select:items:TOP_Mouth_Ctrl,CTR_Mouth_Ctrl,Jaw_Ctrl, BOT_Mouth_Ctrl
+# label::top:240:left:90:height:15:width:20:bgcol:[0.0,0.6,0.8]:command:select:items:TOP_Mouth_Ctrl
+label::top:257:left:80:height:18:width:40:bgcol:[0.0,0.9,0.9]:command:select:items:CTR_Mouth_Ctrl
+label::top:277:left:90:height:15:width:20:bgcol:[0.0,0.6,0.8]:command:select:items:Jaw_Ctrl, BOT_Mouth_Ctrl
+# cheeks
+label::top:257:left:60:height:18:width:18:bgcol:[0.2,0.5,0.9]:command:select:items:R_Cheek_Ctrl
+label::top:257:left:122:height:18:width:18:bgcol:[0.2,0.5,0.9]:command:select:items:L_Cheek_Ctrl
+
+
+# extras ControlVis_Ctrl, Brow_Blend_Ctrl, R_Eye_Transform, L_Eye_Transform, Mouth_Blend_Ctrl
+label::top:314:left:35:height:14:width:14:bgcol:[0.1,0.5,0.99]:command:select:items:ControlVis_Ctrl
+label::top:331:left:35:height:14:width:14:bgcol:[0.9,0.1,0.1]:command:select:items:Brow_Blend_Ctrl
+#label::top:336:left:75:height:16:width:24:bgcol:[0.9,0.1,0.1]:command:select:items:Brow_Blend_Ctrl
+label::top:352:left:22:height:14:width:14:bgcol:[0.95,0.95,0.0]:command:select:items:R_Eye_Transform
+label::top:352:left:48:height:14:width:14:bgcol:[0.95,0.95,0.0]:command:select:items:L_Eye_Transform
+label::top:385:left:35:height:12:width:12:bgcol:[0.0,0.9,0.99]:command:select:items:Mouth_Blend_Ctrl
+#label::top:410:left:30:height:16:width:25:bgcol:[0.9,0.9,0.9]:command:select:items:World*
+
+
+##---------
+#  FACE
+##---------
+
+tab:Face:bgimage:images/backDropFace_4.png
+#tab:Face:bgimage:images/test_bg_2.png
+
+# extras ControlVis_Ctrl, Brow_Blend_Ctrl, R_Eye_Transform, L_Eye_Transform, Mouth_Blend_Ctrl
+label::top:314:left:35:height:14:width:14:bgcol:[0.1,0.5,0.99]:command:select:items:ControlVis_Ctrl
+label::top:331:left:35:height:14:width:14:bgcol:[0.9,0.1,0.1]:command:select:items:Brow_Blend_Ctrl
+#label::top:336:left:75:height:16:width:24:bgcol:[0.9,0.1,0.1]:command:select:items:Brow_Blend_Ctrl
+label::top:352:left:22:height:14:width:14:bgcol:[0.95,0.95,0.0]:command:select:items:R_Eye_Transform
+label::top:352:left:48:height:14:width:14:bgcol:[0.95,0.95,0.0]:command:select:items:L_Eye_Transform
+label::top:385:left:35:height:12:width:12:bgcol:[0.0,0.9,0.99]:command:select:items:Mouth_Blend_Ctrl
+#label::top:410:left:30:height:16:width:25:bgcol:[0.9,0.9,0.9]:command:select:items:World*
+
+# ALL Eyes
+label::top:60:left:155:height:24:width:30:bgcol:[0.9,0.2,0.7]:command:select:items:Brow_Blend_Ctrl,L_Eye_Transform,R_Eye_Transform,R_Eye_UpperLid_05_Ctrl,R_Eye_UpperLid_04_Ctrl,R_Eye_UpperLid_03_Ctrl,R_Eye_UpperLid_02_Ctrl,R_Eye_UpperLid_01_Ctrl,L_Eye_UpperLid_05_Ctrl,L_Eye_UpperLid_04_Ctrl,L_Eye_UpperLid_03_Ctrl,L_Eye_UpperLid_02_Ctrl,L_Eye_UpperLid_01_Ctrl,R_Eye_LowerLid_05_Ctrl,R_Eye_LowerLid_04_Ctrl,R_Eye_LowerLid_03_Ctrl,R_Eye_LowerLid_02_Ctrl,R_Eye_LowerLid_01_Ctrl,L_Eye_LowerLid_05_Ctrl,L_Eye_LowerLid_04_Ctrl,L_Eye_LowerLid_03_Ctrl,L_Eye_LowerLid_02_Ctrl,L_Eye_LowerLid_01_Ctrl,CTR_Brow_Ctrl,R_Brow_03_Ctrl,R_Brow_02_Ctrl,R_Brow_01_Ctrl,L_Brow_03_Ctrl,L_Brow_02_Ctrl,L_Brow_01_Ctrl,R_Eye_LookAt_Ctrl,Eye_LookAt_Ctrl,L_Eye_LookAt_Ctrl,R_Eye_Def_07_Ctrl,R_Eye_Def_08_Ctrl,R_Eye_Def_01_Ctrl,L_Eye_Def_07_Ctrl,L_Eye_Def_08_Ctrl,L_Eye_Def_01_Ctrl,R_Eye_Def_06_Ctrl,R_Eye_Def_09_Ctrl,R_Eye_Def_02_Ctrl,L_Eye_Def_06_Ctrl,L_Eye_Def_09_Ctrl,L_Eye_Def_02_Ctrl,R_Eye_Def_05_Ctrl,R_Eye_Def_04_Ctrl,R_Eye_Def_03_Ctrl,L_Eye_Def_05_Ctrl,L_Eye_Def_04_Ctrl,L_Eye_Def_03_Ctrl
+
+# brows
+label::top:31:left:15:height:14:width:24:bgcol:[0.7,0.2,1.0]:command:select:items:CTR_Brow_Ctrl,R_Brow_03_Ctrl,R_Brow_02_Ctrl,R_Brow_01_Ctrl,L_Brow_03_Ctrl,L_Brow_02_Ctrl,L_Brow_01_Ctrl
+# brow right
+label::top:18:left:57:height:14:width:30:bgcol:[0.9,0.5,0.0]:command:select:items:R_Brow_03_Ctrl,R_Brow_02_Ctrl,R_Brow_01_Ctrl
+label::top:36:left:50:height:14:width:14:bgcol:[0.1,0.9,0.7]:command:select:items:R_Brow_03_Ctrl
+label::top:36:left:65:height:14:width:14:bgcol:[0.1,0.9,0.7]:command:select:items:R_Brow_02_Ctrl
+label::top:36:left:80:height:14:width:14:bgcol:[0.1,0.9,0.7]:command:select:items:R_Brow_01_Ctrl
+# brow middle
+label::top:32:left:100:height:14:width:14:bgcol:[0.1,0.9,0.7]:command:select:items:CTR_Brow_Ctrl
+# brow left
+label::top:18:left:127:height:14:width:30:bgcol:[0.9,0.5,0.0]:command:select:items:L_Brow_03_Ctrl,L_Brow_02_Ctrl,L_Brow_01_Ctrl
+label::top:36:left:150:height:14:width:14:bgcol:[0.1,0.9,0.7]:command:select:items:L_Brow_03_Ctrl
+label::top:36:left:135:height:14:width:14:bgcol:[0.1,0.9,0.7]:command:select:items:L_Brow_02_Ctrl
+label::top:36:left:120:height:14:width:14:bgcol:[0.1,0.9,0.7]:command:select:items:L_Brow_01_Ctrl
+
+# eye lookat
+label::top:80:left:15:height:14:width:24:bgcol:[0.7,0.2,1.0]:command:select:items:R_Eye_LookAt_Ctrl,Eye_LookAt_Ctrl,L_Eye_LookAt_Ctrl
+label::top:70:left:60:height:18:width:18:bgcol:[1.0,0.8,0.1]:command:select:items:R_Eye_LookAt_Ctrl
+label::top:68:left:80:height:22:width:25:bgcol:[0.9,0.8,0.1]:command:select:items:Eye_LookAt_Ctrl
+label::top:70:left:107:height:18:width:18:bgcol:[1.0,0.8,0.1]:command:select:items:L_Eye_LookAt_Ctrl
+
+# nose
+label::top:123:left:15:height:14:width:24:bgcol:[0.7,0.2,1.0]:command:select:items:Nose_01_Ctrl,Nose_02_Ctrl,Nose_03_Ctrl,CTR_Nose_Ctrl
+label::top:115:left:60:height:18:width:18:bgcol:[0.9,0.1,0.1]:command:select:items:Nose_01_Ctrl
+label::top:115:left:80:height:18:width:18:bgcol:[0.9,0.1,0.1]:command:select:items:Nose_02_Ctrl
+label::top:115:left:100:height:18:width:18:bgcol:[0.9,0.1,0.1]:command:select:items:Nose_03_Ctrl
+label::top:115:left:120:height:18:width:18:bgcol:[0.1,0.9,0.9]:command:select:items:CTR_Nose_Ctrl
+
+#ALL MOUTH
+label::top:230:left:145:height:24:width:30:bgcol:[0.9,0.2,0.7]:command:select:items:BOT_Lip_Ctrl,R_BOT_Lip_Ctrl,L_BOT_Lip_Ctrl,TOP_Lip_Ctrl,R_TOP_Lip_Ctrl,L_TOP_Lip_Ctrl,L_MouthCorner_Ctrl,R_MouthCorner_Ctrl,TOP_Mouth_Ctrl,CTR_Mouth_Ctrl,Jaw_Ctrl,BOT_Mouth_Ctrl,TOP_Tooth_Main_Ctrl,TOP_Teeth_Main_Ctrl,BOT_Tooth_Main_Ctrl,BOT_Teeth_Main_Ctrl,TOP_Teeth_01_Ctrl, TOP_Teeth_02_Ctrl, TOP_Teeth_03_Ctrl, TOP_Teeth_04_Ctrl, TOP_Teeth_05_Ctrl,BOT_Teeth_01_Ctrl, BOT_Teeth_02_Ctrl, BOT_Teeth_03_Ctrl, BOT_Teeth_04_Ctrl, BOT_Teeth_05_Ctrl,Tongue_05_Ctrl, Tongue_04_Ctrl, Tongue_03_Ctrl, Tongue_02_Ctrl, Tongue_01_Ctrl, Tongue_05_FK_Ctrl, Tongue_04_FK_Ctrl, Tongue_03_FK_Ctrl, Tongue_02_FK_Ctrl, Tongue_01_FK_Ctrl, R_Cheek_Ctrl, L_Cheek_Ctrl
+
+# lips stuff
+label::top:171:left:15:height:14:width:24:bgcol:[0.7,0.2,1.0]:command:select:items:BOT_Lip_Ctrl,R_BOT_Lip_Ctrl,L_BOT_Lip_Ctrl,TOP_Lip_Ctrl,R_TOP_Lip_Ctrl,L_TOP_Lip_Ctrl,L_MouthCorner_Ctrl,R_MouthCorner_Ctrl
+label::top:175:left:70:height:18:width:18:bgcol:[0.0,0.9,0.9]:command:select:items:R_TOP_Lip_Ctrl
+label::top:175:left:90:height:18:width:18:bgcol:[0.0,0.9,0.9]:command:select:items:TOP_Lip_Ctrl
+label::top:175:left:110:height:18:width:18:bgcol:[0.0,0.9,0.9]:command:select:items:L_TOP_Lip_Ctrl
+
+label::top:195:left:70:height:18:width:18:bgcol:[0.0,0.9,0.9]:command:select:items:R_BOT_Lip_Ctrl
+label::top:195:left:90:height:18:width:18:bgcol:[0.0,0.9,0.9]:command:select:items:BOT_Lip_Ctrl
+label::top:195:left:110:height:18:width:18:bgcol:[0.0,0.9,0.9]:command:select:items:L_BOT_Lip_Ctrl
+
+label::top:185:left:50:height:18:width:18:bgcol:[0.0,0.9,0.9]:command:select:items:R_MouthCorner_Ctrl
+label::top:185:left:130:height:18:width:18:bgcol:[0.0,0.9,0.9]:command:select:items:L_MouthCorner_Ctrl
+
+# lips multi
+label::top:161:left:80:height:12:width:36:bgcol:[0.9,0.5,0.0]:command:select:items:TOP_Lip_Ctrl, R_TOP_Lip_Ctrl, L_TOP_Lip_Ctrl
+label::top:215:left:80:height:12:width:36:bgcol:[0.9,0.5,0.0]:command:select:items:BOT_Lip_Ctrl,R_BOT_Lip_Ctrl,L_BOT_Lip_Ctrl
+
+# mouth
+label::top:257:left:15:height:14:width:24:bgcol:[0.7,0.2,1.0]:command:select:items:TOP_Mouth_Ctrl,CTR_Mouth_Ctrl,Jaw_Ctrl, BOT_Mouth_Ctrl
+label::top:257:left:80:height:18:width:40:bgcol:[0.0,0.9,0.9]:command:select:items:CTR_Mouth_Ctrl
+label::top:277:left:90:height:15:width:20:bgcol:[0.0,0.6,0.8]:command:select:items:Jaw_Ctrl, BOT_Mouth_Ctrl
+
+# cheeks
+label::top:257:left:60:height:18:width:18:bgcol:[0.2,0.5,0.9]:command:select:items:R_Cheek_Ctrl
+label::top:257:left:122:height:18:width:18:bgcol:[0.2,0.5,0.9]:command:select:items:L_Cheek_Ctrl
+
+# teeth
+label::top:205:left:232:height:16:width:16:bgcol:[0.0,0.9,0.3]:command:select:items:TOP_Teeth_05_Ctrl, TOP_Teeth_Def_05_Ctrl
+label::top:205:left:250:height:16:width:16:bgcol:[0.0,0.9,0.3]:command:select:items:TOP_Teeth_04_Ctrl, TOP_Teeth_Def_04_Ctrl
+label::top:205:left:268:height:16:width:16:bgcol:[0.0,0.9,0.3]:command:select:items:TOP_Teeth_03_Ctrl, TOP_Teeth_Def_03_Ctrl
+label::top:205:left:286:height:16:width:16:bgcol:[0.0,0.9,0.3]:command:select:items:TOP_Teeth_02_Ctrl, TOP_Teeth_Def_02_Ctrl
+label::top:205:left:304:height:16:width:16:bgcol:[0.0,0.9,0.3]:command:select:items:TOP_Teeth_01_Ctrl, TOP_Teeth_Def_01_Ctrl
+
+label::top:223:left:232:height:16:width:16:bgcol:[0.0,0.9,0.3]:command:select:items:BOT_Teeth_05_Ctrl, BOT_Teeth_Def_05_Ctrl
+label::top:223:left:250:height:16:width:16:bgcol:[0.0,0.9,0.3]:command:select:items:BOT_Teeth_04_Ctrl, BOT_Teeth_Def_04_Ctrl
+label::top:223:left:268:height:16:width:16:bgcol:[0.0,0.9,0.3]:command:select:items:BOT_Teeth_03_Ctrl, BOT_Teeth_Def_03_Ctrl
+label::top:223:left:286:height:16:width:16:bgcol:[0.0,0.9,0.3]:command:select:items:BOT_Teeth_02_Ctrl, BOT_Teeth_Def_02_Ctrl
+label::top:223:left:304:height:16:width:16:bgcol:[0.0,0.9,0.3]:command:select:items:BOT_Teeth_01_Ctrl, BOT_Teeth_Def_01_Ctrl
+
+# main tooth control
+label::top:194:left:250:height:10:width:50:bgcol:[0.0,0.9,0.3]:command:select:items:TOP_Tooth_Main_Ctrl,TOP_Teeth_Main_Ctrl
+label::top:240:left:250:height:10:width:50:bgcol:[0.0,0.9,0.3]:command:select:items:BOT_Tooth_Main_Ctrl,BOT_Teeth_Main_Ctrl
+
+label::top:205:left:214:height:16:width:16:bgcol:[0.9,0.5,0.0]:command:select:items:TOP_Teeth_Def_01_Ctrl, TOP_Teeth_01_Ctrl,  TOP_Teeth_Def_02_Ctrl, TOP_Teeth_02_Ctrl,  TOP_Teeth_Def_03_Ctrl, TOP_Teeth_03_Ctrl,  TOP_Teeth_Def_04_Ctrl, TOP_Teeth_04_Ctrl,  TOP_Teeth_Def_05_Ctrl, TOP_Teeth_05_Ctrl
+label::top:223:left:214:height:16:width:16:bgcol:[0.9,0.5,0.0]:command:select:items:BOT_Teeth_Def_01_Ctrl, BOT_Teeth_01_Ctrl,  BOT_Teeth_Def_02_Ctrl, BOT_Teeth_02_Ctrl,  BOT_Teeth_Def_03_Ctrl, BOT_Teeth_03_Ctrl,  BOT_Teeth_Def_04_Ctrl, BOT_Teeth_04_Ctrl,  BOT_Teeth_Def_05_Ctrl, BOT_Teeth_05_Ctrl
+
+# multi control
+label::top:205:left:180:height:14:width:24:bgcol:[0.7,0.2,1.0]:command:select:items:TOP_Tooth_Main_Ctrl,TOP_Teeth_Main_Ctrl,BOT_Tooth_Main_Ctrl,BOT_Teeth_Main_Ctrl,TOP_Teeth_01_Ctrl, TOP_Teeth_02_Ctrl, TOP_Teeth_03_Ctrl, TOP_Teeth_04_Ctrl, TOP_Teeth_05_Ctrl,BOT_Teeth_01_Ctrl, BOT_Teeth_02_Ctrl, BOT_Teeth_03_Ctrl, BOT_Teeth_04_Ctrl, BOT_Teeth_05_Ctrl
+
+
+# tongue
+label::top:268:left:200:height:18:width:18:bgcol:[0.9,0.5,0.0]:command:select:items:Tongue_05_Ctrl, Tongue_04_Ctrl, Tongue_03_Ctrl, Tongue_02_Ctrl, Tongue_01_Ctrl, Tongue_05_FK_Ctrl, Tongue_04_FK_Ctrl, Tongue_03_FK_Ctrl, Tongue_02_FK_Ctrl, Tongue_01_FK_Ctrl
+label::top:268:left:220:height:18:width:18:bgcol:[0.9,0.3,0.6]:command:select:items:Tongue_05_Ctrl, Tongue_05_FK_Ctrl
+label::top:268:left:240:height:18:width:18:bgcol:[0.9,0.3,0.6]:command:select:items:Tongue_04_Ctrl, Tongue_04_FK_Ctrl
+label::top:268:left:260:height:18:width:18:bgcol:[0.9,0.3,0.6]:command:select:items:Tongue_03_Ctrl, Tongue_03_FK_Ctrl
+label::top:268:left:280:height:18:width:18:bgcol:[0.9,0.3,0.6]:command:select:items:Tongue_02_Ctrl, Tongue_02_FK_Ctrl
+label::top:268:left:300:height:18:width:18:bgcol:[0.9,0.3,0.6]:command:select:items:Tongue_01_Ctrl, Tongue_01_FK_Ctrl
+
+
+#eye deformers
+label::top:34:left:180:height:14:width:24:bgcol:[0.7,0.2,1.0]:command:select:items:R_Eye_Def_07_Ctrl,R_Eye_Def_08_Ctrl,R_Eye_Def_01_Ctrl,L_Eye_Def_07_Ctrl,L_Eye_Def_08_Ctrl,L_Eye_Def_01_Ctrl,R_Eye_Def_06_Ctrl,R_Eye_Def_09_Ctrl,R_Eye_Def_02_Ctrl,L_Eye_Def_06_Ctrl,L_Eye_Def_09_Ctrl,L_Eye_Def_02_Ctrl,R_Eye_Def_05_Ctrl,R_Eye_Def_04_Ctrl,R_Eye_Def_03_Ctrl,L_Eye_Def_05_Ctrl,L_Eye_Def_04_Ctrl,L_Eye_Def_03_Ctrl
+
+label: :top:34:left:209:height:18:width:18:bgcol:[0.8,0.8,0.8]:command:select:items:R_Eye_Def_07_Ctrl
+label: :top:34:left:229:height:18:width:18:bgcol:[0.8,0.8,0.8]:command:select:items:R_Eye_Def_08_Ctrl
+label: :top:34:left:249:height:18:width:18:bgcol:[0.8,0.8,0.8]:command:select:items:R_Eye_Def_01_Ctrl
+
+label: :top:34:left:277:height:18:width:18:bgcol:[0.8,0.8,0.8]:command:select:items:L_Eye_Def_07_Ctrl
+label: :top:34:left:297:height:18:width:18:bgcol:[0.8,0.8,0.8]:command:select:items:L_Eye_Def_08_Ctrl
+label: :top:34:left:317:height:18:width:18:bgcol:[0.8,0.8,0.8]:command:select:items:L_Eye_Def_01_Ctrl
+
+label: :top:56:left:209:height:18:width:18:bgcol:[0.8,0.8,0.8]:command:select:items:R_Eye_Def_06_Ctrl
+label: :top:56:left:229:height:18:width:18:bgcol:[0.8,0.8,0.8]:command:select:items:R_Eye_Def_09_Ctrl
+label: :top:56:left:249:height:18:width:18:bgcol:[0.8,0.8,0.8]:command:select:items:R_Eye_Def_02_Ctrl
+
+label: :top:56:left:277:height:18:width:18:bgcol:[0.8,0.8,0.8]:command:select:items:L_Eye_Def_06_Ctrl
+label: :top:56:left:297:height:18:width:18:bgcol:[0.8,0.8,0.8]:command:select:items:L_Eye_Def_09_Ctrl
+label: :top:56:left:317:height:18:width:18:bgcol:[0.8,0.8,0.8]:command:select:items:L_Eye_Def_02_Ctrl
+
+label: :top:80:left:209:height:18:width:18:bgcol:[0.8,0.8,0.8]:command:select:items:R_Eye_Def_05_Ctrl
+label: :top:80:left:229:height:18:width:18:bgcol:[0.8,0.8,0.8]:command:select:items:R_Eye_Def_04_Ctrl
+label: :top:80:left:249:height:18:width:18:bgcol:[0.8,0.8,0.8]:command:select:items:R_Eye_Def_03_Ctrl
+
+label: :top:80:left:277:height:18:width:18:bgcol:[0.8,0.8,0.8]:command:select:items:L_Eye_Def_05_Ctrl
+label: :top:80:left:297:height:18:width:18:bgcol:[0.8,0.8,0.8]:command:select:items:L_Eye_Def_04_Ctrl
+label: :top:80:left:317:height:18:width:18:bgcol:[0.8,0.8,0.8]:command:select:items:L_Eye_Def_03_Ctrl
+
+# lid details Top
+label::top:118:left:180:height:14:width:24:bgcol:[0.7,0.2,1.0]:command:select:items:R_Eye_UpperLid_05_Ctrl,R_Eye_UpperLid_04_Ctrl,R_Eye_UpperLid_03_Ctrl,R_Eye_UpperLid_02_Ctrl,R_Eye_UpperLid_01_Ctrl,L_Eye_UpperLid_05_Ctrl,L_Eye_UpperLid_04_Ctrl,L_Eye_UpperLid_03_Ctrl,L_Eye_UpperLid_02_Ctrl,L_Eye_UpperLid_01_Ctrl,R_Eye_LowerLid_05_Ctrl,R_Eye_LowerLid_04_Ctrl,R_Eye_LowerLid_03_Ctrl,R_Eye_LowerLid_02_Ctrl,R_Eye_LowerLid_01_Ctrl,L_Eye_LowerLid_05_Ctrl,L_Eye_LowerLid_04_Ctrl,L_Eye_LowerLid_03_Ctrl,L_Eye_LowerLid_02_Ctrl,L_Eye_LowerLid_01_Ctrl
+
+label: :top:118:left:215:height:13:width:30:bgcol:[0.9,0.5,0.0]:command:select:items:R_Eye_UpperLid_05_Ctrl,R_Eye_UpperLid_04_Ctrl,R_Eye_UpperLid_03_Ctrl,R_Eye_UpperLid_02_Ctrl,R_Eye_UpperLid_01_Ctrl
+
+label: :top:135:left:195:height:13:width:13:bgcol:[0.0,0.0,0.95]:command:select:items:R_Eye_UpperLid_05_Ctrl
+label: :top:135:left:209:height:13:width:13:bgcol:[0.0,0.0,0.95]:command:select:items:R_Eye_UpperLid_04_Ctrl
+label: :top:135:left:223:height:13:width:13:bgcol:[0.0,0.0,0.95]:command:select:items:R_Eye_UpperLid_03_Ctrl
+label: :top:135:left:237:height:13:width:13:bgcol:[0.0,0.0,0.95]:command:select:items:R_Eye_UpperLid_02_Ctrl
+label: :top:135:left:251:height:13:width:13:bgcol:[0.0,0.0,0.95]:command:select:items:R_Eye_UpperLid_01_Ctrl
+
+label: :top:118:left:290:height:13:width:30:bgcol:[0.9,0.5,0.0]:command:select:items:L_Eye_UpperLid_05_Ctrl,L_Eye_UpperLid_04_Ctrl,L_Eye_UpperLid_03_Ctrl,L_Eye_UpperLid_02_Ctrl,L_Eye_UpperLid_01_Ctrl
+
+label: :top:135:left:271:height:13:width:13:bgcol:[0.0,0.0,0.95]:command:select:items:L_Eye_UpperLid_05_Ctrl
+label: :top:135:left:285:height:13:width:13:bgcol:[0.0,0.0,0.95]:command:select:items:L_Eye_UpperLid_04_Ctrl
+label: :top:135:left:299:height:13:width:13:bgcol:[0.0,0.0,0.95]:command:select:items:L_Eye_UpperLid_03_Ctrl
+label: :top:135:left:313:height:13:width:13:bgcol:[0.0,0.0,0.95]:command:select:items:L_Eye_UpperLid_02_Ctrl
+label: :top:135:left:327:height:13:width:13:bgcol:[0.0,0.0,0.95]:command:select:items:L_Eye_UpperLid_01_Ctrl
+
+
+#lid details Bottom
+label: :top:168:left:215:height:13:width:30:bgcol:[0.9,0.5,0.0]:command:select:items:R_Eye_LowerLid_05_Ctrl,R_Eye_LowerLid_04_Ctrl,R_Eye_LowerLid_03_Ctrl,R_Eye_LowerLid_02_Ctrl,R_Eye_LowerLid_01_Ctrl
+
+label: :top:152:left:195:height:13:width:13:bgcol:[0.9,0.0,0.0]:command:select:items:R_Eye_LowerLid_05_Ctrl
+label: :top:152:left:209:height:13:width:13:bgcol:[0.9,0.0,0.0]:command:select:items:R_Eye_LowerLid_04_Ctrl
+label: :top:152:left:223:height:13:width:13:bgcol:[0.9,0.0,0.0]:command:select:items:R_Eye_LowerLid_03_Ctrl
+label: :top:152:left:237:height:13:width:13:bgcol:[0.9,0.0,0.0]:command:select:items:R_Eye_LowerLid_02_Ctrl
+label: :top:152:left:251:height:13:width:13:bgcol:[0.9,0.0,0.0]:command:select:items:R_Eye_LowerLid_01_Ctrl
+
+label: :top:168:left:290:height:13:width:30:bgcol:[0.9,0.5,0.0]:command:select:items:L_Eye_LowerLid_05_Ctrl,L_Eye_LowerLid_04_Ctrl,L_Eye_LowerLid_03_Ctrl,L_Eye_LowerLid_02_Ctrl,L_Eye_LowerLid_01_Ctrl
+
+label: :top:152:left:271:height:13:width:13:bgcol:[0.9,0.0,0.0]:command:select:items:L_Eye_LowerLid_05_Ctrl
+label: :top:152:left:285:height:13:width:13:bgcol:[0.9,0.0,0.0]:command:select:items:L_Eye_LowerLid_04_Ctrl
+label: :top:152:left:299:height:13:width:13:bgcol:[0.9,0.0,0.0]:command:select:items:L_Eye_LowerLid_03_Ctrl
+label: :top:152:left:313:height:13:width:13:bgcol:[0.9,0.0,0.0]:command:select:items:L_Eye_LowerLid_02_Ctrl
+label: :top:152:left:327:height:13:width:13:bgcol:[0.9,0.0,0.0]:command:select:items:L_Eye_LowerLid_01_Ctrl
+
+##---------
+#  MOUTH blocking helpers
+##---------
+
+tab:Mouth:bgimage:images/backDropMouth_1.png
+
+label:0:top:9:left:82:height:15:width:47:bgcol:[0.1,0.9,0.7]:command:setAttrib:items:Mouth_Blend_Ctrl.Phoneme_Ee_R=0.0,Mouth_Blend_Ctrl.Smile_R=0.0,Mouth_Blend_Ctrl.Frown_R=0.0,Mouth_Blend_Ctrl.Sneer_R=0.0,Mouth_Blend_Ctrl.MouthCornerL=0.0,Mouth_Blend_Ctrl.Mouth_Pull_R=0.0,Mouth_Blend_Ctrl.Cheek_Puff_R=0.0
+label:0:top:9:left:178:height:15:width:47:bgcol:[0.7,0.7,0.7]:command:setAttrib:items:Mouth_Blend_Ctrl.Cheek_Puff_R=0.0,Mouth_Blend_Ctrl.Phoneme_Ee_L=0.0,Mouth_Blend_Ctrl.Phoneme_Ee_R=0.0,Mouth_Blend_Ctrl.Phoneme_FV=0.0,Mouth_Blend_Ctrl.Phoneme_BMP=0.0,Mouth_Blend_Ctrl.Phoneme_Oo=0.0,Mouth_Blend_Ctrl.Phoneme_Oh=0.0,Mouth_Blend_Ctrl.Smile_L=0.0,Mouth_Blend_Ctrl.Smile_R=0.0,Mouth_Blend_Ctrl.Smile_Toothy=0.0,Mouth_Blend_Ctrl.Frown_L=0.0,Mouth_Blend_Ctrl.Frown_R=0.0,Mouth_Blend_Ctrl.Sneer_L=0.0,Mouth_Blend_Ctrl.Sneer_R=0.0,Mouth_Blend_Ctrl.MouthCornerL=0.0,Mouth_Blend_Ctrl.MouthCornerR=0.0,Mouth_Blend_Ctrl.Mouth_Pull_L=0.0,Mouth_Blend_Ctrl.Mouth_Pull_R=0.0,Mouth_Blend_Ctrl.Cheek_Puff_L=0.0
+label:0:top:9:left:274:height:15:width:47:bgcol:[0.9,0.7,0.1]:command:setAttrib:items:Mouth_Blend_Ctrl.Phoneme_Ee_L=0.0,Mouth_Blend_Ctrl.Smile_L=0.0,Mouth_Blend_Ctrl.Frown_L=0.0,Mouth_Blend_Ctrl.Sneer_L=0.0,Mouth_Blend_Ctrl.MouthCornerL=0.0,Mouth_Blend_Ctrl.Mouth_Pull_L=0.0,Mouth_Blend_Ctrl.Cheek_Puff_L=0.0
+
+# Smile
+#label:Smile:top:25:left:5:height:17:width:50:bgcol:[0.8,0.8,0.8]:command:select:items:
+label:-:top:25:left:82:height:17:width:23:bgcol:[0.1,0.7,0.5]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Smile_R[0.0|-0.1]
+label:+:top:25:left:106:height:17:width:23:bgcol:[0.1,0.9,0.7]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Smile_R[1.0|0.1]
+label:-:top:25:left:178:height:17:width:23:bgcol:[0.7,0.7,0.7]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Smile_R[0.0|-0.1],Mouth_Blend_Ctrl.Smile_L[0.0|-0.1]
+label:+:top:25:left:202:height:17:width:23:bgcol:[0.8,0.8,0.8]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Smile_R[1.0|0.1],Mouth_Blend_Ctrl.Smile_L[1.0|0.1]
+label:-:top:25:left:274:height:17:width:23:bgcol:[0.8,0.6,0.1]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Smile_L[0.0|-0.1]
+label:+:top:25:left:298:height:17:width:23:bgcol:[0.9,0.7,0.1]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Smile_L[1.0|0.1]
+
+# Frown
+#label:Frown:top:57:left:5:height:17:width:50:bgcol:[0.8,0.8,0.8]:command:select:items:
+label:-:top:57:left:82:height:17:width:23:bgcol:[0.1,0.7,0.5]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Frown_R[0.0|-0.1]
+label:+:top:57:left:106:height:17:width:23:bgcol:[0.1,0.9,0.7]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Frown_R[1.0|0.1]
+label:-:top:57:left:178:height:17:width:23:bgcol:[0.7,0.7,0.7]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Frown_R[0.0|-0.1],Mouth_Blend_Ctrl.Frown_L[0.0|-0.1]
+label:+:top:57:left:202:height:17:width:23:bgcol:[0.8,0.8,0.8]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Frown_R[1.0|0.1],Mouth_Blend_Ctrl.Frown_L[1.0|0.1]
+label:-:top:57:left:274:height:17:width:23:bgcol:[0.8,0.6,0.1]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Frown_L[0.0|-0.1]
+label:+:top:57:left:298:height:17:width:23:bgcol:[0.9,0.7,0.1]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Frown_L[1.0|0.1]
+
+
+# Sneer
+#label:Sneer:top:89:left:5:height:17:width:50:bgcol:[0.8,0.8,0.8]:command:select:items:
+label:-:top:89:left:82:height:17:width:23:bgcol:[0.1,0.7,0.5]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Sneer_R[0.0|-0.1]
+label:+:top:89:left:106:height:17:width:23:bgcol:[0.1,0.9,0.7]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Sneer_R[1.0|0.1]
+label:-:top:89:left:178:height:17:width:23:bgcol:[0.7,0.7,0.7]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Sneer_R[0.0|-0.1],Mouth_Blend_Ctrl.Sneer_L[0.0|-0.1]
+label:+:top:89:left:202:height:17:width:23:bgcol:[0.8,0.8,0.8]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Sneer_R[1.0|0.1],Mouth_Blend_Ctrl.Sneer_L[1.0|0.1]
+label:-:top:89:left:274:height:17:width:23:bgcol:[0.8,0.6,0.1]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Sneer_L[0.0|-0.1]
+label:+:top:89:left:298:height:17:width:23:bgcol:[0.9,0.7,0.1]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Sneer_L[1.0|0.1]
+
+
+# Mouth Corner
+#label:Corner:top:121:left:5:height:17:width:50:bgcol:[0.8,0.8,0.8]:command:select:items:
+label:-:top:121:left:82:height:17:width:23:bgcol:[0.1,0.7,0.5]:command:adjustAttrib:items:Mouth_Blend_Ctrl.MouthCornerR[0.0|-0.1]
+label:+:top:121:left:106:height:17:width:23:bgcol:[0.1,0.9,0.7]:command:adjustAttrib:items:Mouth_Blend_Ctrl.MouthCornerR[1.0|0.1]
+label:-:top:121:left:178:height:17:width:23:bgcol:[0.7,0.7,0.7]:command:adjustAttrib:items:Mouth_Blend_Ctrl.MouthCornerR[0.0|-0.1],Mouth_Blend_Ctrl.MouthCornerL[0.0|-0.1]
+label:+:top:121:left:202:height:17:width:23:bgcol:[0.8,0.8,0.8]:command:adjustAttrib:items:Mouth_Blend_Ctrl.MouthCornerR[1.0|0.1],Mouth_Blend_Ctrl.MouthCornerL[1.0|0.1]
+label:-:top:121:left:274:height:17:width:23:bgcol:[0.8,0.6,0.1]:command:adjustAttrib:items:Mouth_Blend_Ctrl.MouthCornerL[0.0|-0.1]
+label:+:top:121:left:298:height:17:width:23:bgcol:[0.9,0.7,0.1]:command:adjustAttrib:items:Mouth_Blend_Ctrl.MouthCornerL[1.0|0.1]
+
+
+# Mouth Pull
+#label:Pull:top:153:left:5:height:17:width:50:bgcol:[0.8,0.8,0.8]:command:select:items:
+label:-:top:153:left:178:height:17:width:23:bgcol:[0.7,0.7,0.7]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Mouth_Pull[-1.0|-0.1]
+label:+:top:153:left:202:height:17:width:23:bgcol:[0.8,0.8,0.8]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Mouth_Pull[1.0|0.1]
+
+# Cheeks
+#label:Cheeks:top:185:left:5:height:17:width:50:bgcol:[0.8,0.8,0.8]:command:select:items:
+label:-:top:185:left:82:height:17:width:23:bgcol:[0.1,0.7,0.5]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Cheek_Puff_R[0.0|-0.1]
+label:+:top:185:left:106:height:17:width:23:bgcol:[0.1,0.9,0.7]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Cheek_Puff_R[1.0|0.1]
+label:-:top:185:left:178:height:17:width:23:bgcol:[0.7,0.7,0.7]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Cheek_Puff_R[0.0|-0.1],Mouth_Blend_Ctrl.Cheek_Puff_L[0.0|-0.1]
+label:+:top:185:left:202:height:17:width:23:bgcol:[0.8,0.8,0.8]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Cheek_Puff_R[1.0|0.1],Mouth_Blend_Ctrl.Cheek_Puff_L[1.0|0.1]
+label:-:top:185:left:274:height:17:width:23:bgcol:[0.8,0.6,0.1]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Cheek_Puff_L[0.0|-0.1]
+label:+:top:185:left:298:height:17:width:23:bgcol:[0.9,0.7,0.1]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Cheek_Puff_L[1.0|0.1]
+
+#Ph 'Ee'
+#label:Ee:top:217:left:5:height:17:width:50:bgcol:[0.8,0.8,0.8]:command:select:items:
+label:-:top:217:left:82:height:17:width:23:bgcol:[0.1,0.7,0.5]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Phoneme_Ee_R[0.0|-0.1]
+label:+:top:217:left:106:height:17:width:23:bgcol:[0.1,0.9,0.7]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Phoneme_Ee_R[1.0|0.1]
+label:-:top:217:left:178:height:17:width:23:bgcol:[0.7,0.7,0.7]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Phoneme_Ee_R[0.0|-0.1],Mouth_Blend_Ctrl.Phoneme_Ee_L[0.0|-0.1]
+label:+:top:217:left:202:height:17:width:23:bgcol:[0.8,0.8,0.8]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Phoneme_Ee_R[1.0|0.1],Mouth_Blend_Ctrl.Phoneme_Ee_L[1.0|0.1]
+label:-:top:217:left:274:height:17:width:23:bgcol:[0.8,0.6,0.1]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Phoneme_Ee_L[0.0|-0.1]
+label:+:top:217:left:298:height:17:width:23:bgcol:[0.9,0.7,0.1]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Phoneme_Ee_L[1.0|0.1]
+
+# Ph 'FV'
+label:-:top:249:left:82:height:17:width:23:bgcol:[0.1,0.2,0.3]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Phoneme_FV[0.0|-0.1]
+label:FV:top:249:left:106:height:17:width:23:bgcol:[0.1,0.2,0.5]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Phoneme_FV[1.0|0.1]
+
+# Ph 'BMP'
+label:-:top:249:left:274:height:17:width:23:bgcol:[0.2,0.1,0.1]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Phoneme_BMP[0.0|-0.1]
+label:BMP:top:249:left:298:height:17:width:30:bgcol:[0.3,0.0,0.0]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Phoneme_BMP[1.0|0.1]
+
+# Ph 'Oo'
+label:-:top:249:left:178:height:17:width:23:bgcol:[0.2,0.2,0.2]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Phoneme_Oo[0.0|-0.1]
+label:Oo:top:249:left:202:height:17:width:23:bgcol:[0.3,0.3,0.3]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Phoneme_Oo[1.0|0.1]
+
+# Ph 'Oh'
+label:-:top:281:left:178:height:17:width:23:bgcol:[0.3,0.0,0.3]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Phoneme_Oh[0.0|-0.1]
+label:Oh:top:281:left:202:height:17:width:23:bgcol:[0.4,0.1,0.4]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Phoneme_Oh[1.0|0.1]
+
+
+# Smile Toothy
+
+#label:Toothy:top:281:left:5:height:17:width:50:bgcol:[0.8,0.8,0.8]:command:select:items:
+label:-:top:281:left:82:height:17:width:23:bgcol:[0.7,0.7,0.7]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Smile_Toothy[0.0|-0.1]
+label:+:top:281:left:106:height:17:width:23:bgcol:[0.8,0.8,0.8]:command:adjustAttrib:items:Mouth_Blend_Ctrl.Smile_Toothy[1.0|0.1]
+
+##---------
+#  BROW refined
+##---------
+tab:BrowTidy:bgimage:images/backDropBrow_1.png
+
+
+label:0:top:9:left:82:height:15:width:47:bgcol:[0.1,0.9,0.7]:command:setAttrib:items:Brow_Blend_Ctrl.BrowInOutR=0.0,Brow_Blend_Ctrl.BrowUpDownR=0.0,Brow_Blend_Ctrl.Brow_Squeeze_R=0.0,Brow_Blend_Ctrl.Brow_Sad_R=0.0,Brow_Blend_Ctrl.Brow_Worried_R=0.0,Brow_Blend_Ctrl.Brow_Angry_R=0.0,Brow_Blend_Ctrl.Brow_Surprised_R=0.0
+label:0:top:9:left:178:height:15:width:47:bgcol:[0.7,0.7,0.7]:command:setAttrib:items:Brow_Blend_Ctrl.BrowInOutR=0.0,Brow_Blend_Ctrl.BrowInOutL=0.0,Brow_Blend_Ctrl.BrowUpDownR=0.0,Brow_Blend_Ctrl.BrowUpDownL=0.0,Brow_Blend_Ctrl.Brow_Squeeze_R=0.0,Brow_Blend_Ctrl.Brow_Squeeze_L=0.0,Brow_Blend_Ctrl.Brow_Sad_R=0.0,Brow_Blend_Ctrl.Brow_Sad_L=0.0,Brow_Blend_Ctrl.Brow_Worried_R=0.0,Brow_Blend_Ctrl.Brow_Worried_L=0.0,Brow_Blend_Ctrl.Brow_Angry_R=0.0,Brow_Blend_Ctrl.Brow_Angry_L=0.0,Brow_Blend_Ctrl.Brow_Surprised_R=0.0,Brow_Blend_Ctrl.Brow_Surprised_L=0.0
+label:0:top:9:left:274:height:15:width:47:bgcol:[0.9,0.7,0.1]:command:setAttrib:items:Brow_Blend_Ctrl.BrowInOutL=0.0,Brow_Blend_Ctrl.BrowUpDownL=0.0,Brow_Blend_Ctrl.Brow_Squeeze_L=0.0,Brow_Blend_Ctrl.Brow_Sad_L=0.0,Brow_Blend_Ctrl.Brow_Worried_L=0.0,Brow_Blend_Ctrl.Brow_Angry_L=0.0,Brow_Blend_Ctrl.Brow_Surprised_L=0.0
+
+
+# Brow IN / OUT
+#label:Corner:top:121:left:5:height:17:width:50:bgcol:[0.8,0.8,0.8]:command:select:items:
+label:-:top:25:left:82:height:17:width:23:bgcol:[0.1,0.7,0.5]:command:adjustAttrib:items:Brow_Blend_Ctrl.BrowInOutR[0.0|-0.1]
+label:+:top:25:left:106:height:17:width:23:bgcol:[0.1,0.9,0.7]:command:adjustAttrib:items:Brow_Blend_Ctrl.BrowInOutR[1.0|0.1]
+label:-:top:25:left:178:height:17:width:23:bgcol:[0.7,0.7,0.7]:command:adjustAttrib:items:Brow_Blend_Ctrl.BrowInOutR[0.0|-0.1],Brow_Blend_Ctrl.BrowInOutL[0.0|-0.1]
+label:+:top:25:left:202:height:17:width:23:bgcol:[0.8,0.8,0.8]:command:adjustAttrib:items:Brow_Blend_Ctrl.BrowInOutR[1.0|0.1],Brow_Blend_Ctrl.BrowInOutL[1.0|0.1]
+label:-:top:25:left:274:height:17:width:23:bgcol:[0.8,0.6,0.1]:command:adjustAttrib:items:Brow_Blend_Ctrl.BrowInOutL[0.0|-0.1]
+label:+:top:25:left:298:height:17:width:23:bgcol:[0.9,0.7,0.1]:command:adjustAttrib:items:Brow_Blend_Ctrl.BrowInOutL[1.0|0.1]
+
+
+# Brow IN / OUT
+#label:Corner:top:121:left:5:height:17:width:50:bgcol:[0.8,0.8,0.8]:command:select:items:
+label:-:top:57:left:82:height:17:width:23:bgcol:[0.1,0.7,0.5]:command:adjustAttrib:items:Brow_Blend_Ctrl.BrowUpDownR[0.0|-0.1]
+label:+:top:57:left:106:height:17:width:23:bgcol:[0.1,0.9,0.7]:command:adjustAttrib:items:Brow_Blend_Ctrl.BrowUpDownR[1.0|0.1]
+label:-:top:57:left:178:height:17:width:23:bgcol:[0.7,0.7,0.7]:command:adjustAttrib:items:Brow_Blend_Ctrl.BrowUpDownR[0.0|-0.1],Brow_Blend_Ctrl.BrowUpDownL[0.0|-0.1]
+label:+:top:57:left:202:height:17:width:23:bgcol:[0.8,0.8,0.8]:command:adjustAttrib:items:Brow_Blend_Ctrl.BrowUpDownR[1.0|0.1],Brow_Blend_Ctrl.BrowUpDownL[1.0|0.1]
+label:-:top:57:left:274:height:17:width:23:bgcol:[0.8,0.6,0.1]:command:adjustAttrib:items:Brow_Blend_Ctrl.BrowUpDownL[0.0|-0.1]
+label:+:top:57:left:298:height:17:width:23:bgcol:[0.9,0.7,0.1]:command:adjustAttrib:items:Brow_Blend_Ctrl.BrowUpDownL[1.0|0.1]
+
+
+# Brow IN / OUT
+#label:Corner:top:121:left:5:height:17:width:50:bgcol:[0.8,0.8,0.8]:command:select:items:
+label:-:top:89:left:82:height:17:width:23:bgcol:[0.1,0.7,0.5]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Squeeze_R[0.0|-0.1]
+label:+:top:89:left:106:height:17:width:23:bgcol:[0.1,0.9,0.7]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Squeeze_R[1.0|0.1]
+label:-:top:89:left:178:height:17:width:23:bgcol:[0.7,0.7,0.7]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Squeeze_R[0.0|-0.1],Brow_Blend_Ctrl.Brow_Squeeze_L[0.0|-0.1]
+label:+:top:89:left:202:height:17:width:23:bgcol:[0.8,0.8,0.8]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Squeeze_R[1.0|0.1],Brow_Blend_Ctrl.Brow_Squeeze_L[1.0|0.1]
+label:-:top:89:left:274:height:17:width:23:bgcol:[0.8,0.6,0.1]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Squeeze_L[0.0|-0.1]
+label:+:top:89:left:298:height:17:width:23:bgcol:[0.9,0.7,0.1]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Squeeze_L[1.0|0.1]
+
+
+# Brow IN / OUT
+#label:Corner:top:121:left:5:height:17:width:50:bgcol:[0.8,0.8,0.8]:command:select:items:
+label:-:top:121:left:82:height:17:width:23:bgcol:[0.1,0.7,0.5]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Sad_R[0.0|-0.1]
+label:+:top:121:left:106:height:17:width:23:bgcol:[0.1,0.9,0.7]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Sad_R[1.0|0.1]
+label:-:top:121:left:178:height:17:width:23:bgcol:[0.7,0.7,0.7]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Sad_R[0.0|-0.1],Brow_Blend_Ctrl.Brow_Sad_L[0.0|-0.1]
+label:+:top:121:left:202:height:17:width:23:bgcol:[0.8,0.8,0.8]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Sad_R[1.0|0.1],Brow_Blend_Ctrl.Brow_Sad_L[1.0|0.1]
+label:-:top:121:left:274:height:17:width:23:bgcol:[0.8,0.6,0.1]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Sad_L[0.0|-0.1]
+label:+:top:121:left:298:height:17:width:23:bgcol:[0.9,0.7,0.1]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Sad_L[1.0|0.1]
+
+
+# Brow IN / OUT
+#label:Corner:top:121:left:5:height:17:width:50:bgcol:[0.8,0.8,0.8]:command:select:items:
+label:-:top:153:left:82:height:17:width:23:bgcol:[0.1,0.7,0.5]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Worried_R[0.0|-0.1]
+label:+:top:153:left:106:height:17:width:23:bgcol:[0.1,0.9,0.7]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Worried_R[1.0|0.1]
+label:-:top:153:left:178:height:17:width:23:bgcol:[0.7,0.7,0.7]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Worried_R[0.0|-0.1],Brow_Blend_Ctrl.Brow_Worried_L[0.0|-0.1]
+label:+:top:153:left:202:height:17:width:23:bgcol:[0.8,0.8,0.8]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Worried_R[1.0|0.1],Brow_Blend_Ctrl.Brow_Worried_L[1.0|0.1]
+label:-:top:153:left:274:height:17:width:23:bgcol:[0.8,0.6,0.1]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Worried_L[0.0|-0.1]
+label:+:top:153:left:298:height:17:width:23:bgcol:[0.9,0.7,0.1]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Worried_L[1.0|0.1]
+
+
+# Brow IN / OUT
+#label:Corner:top:121:left:5:height:17:width:50:bgcol:[0.8,0.8,0.8]:command:select:items:
+label:-:top:185:left:82:height:17:width:23:bgcol:[0.1,0.7,0.5]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Angry_R[0.0|-0.1]
+label:+:top:185:left:106:height:17:width:23:bgcol:[0.1,0.9,0.7]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Angry_R[1.0|0.1]
+label:-:top:185:left:178:height:17:width:23:bgcol:[0.7,0.7,0.7]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Angry_R[0.0|-0.1],Brow_Blend_Ctrl.Brow_Angry_L[0.0|-0.1]
+label:+:top:185:left:202:height:17:width:23:bgcol:[0.8,0.8,0.8]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Angry_R[1.0|0.1],Brow_Blend_Ctrl.Brow_Angry_L[1.0|0.1]
+label:-:top:185:left:274:height:17:width:23:bgcol:[0.8,0.6,0.1]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Angry_L[0.0|-0.1]
+label:+:top:185:left:298:height:17:width:23:bgcol:[0.9,0.7,0.1]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Angry_L[1.0|0.1]
+
+
+# Brow IN / OUT
+#label:Corner:top:121:left:5:height:17:width:50:bgcol:[0.8,0.8,0.8]:command:select:items:
+label:-:top:217:left:82:height:17:width:23:bgcol:[0.1,0.7,0.5]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Surprised_R[0.0|-0.1]
+label:+:top:217:left:106:height:17:width:23:bgcol:[0.1,0.9,0.7]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Surprised_R[1.0|0.1]
+label:-:top:217:left:178:height:17:width:23:bgcol:[0.7,0.7,0.7]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Surprised_R[0.0|-0.1],Brow_Blend_Ctrl.Brow_Surprised_L[0.0|-0.1]
+label:+:top:217:left:202:height:17:width:23:bgcol:[0.8,0.8,0.8]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Surprised_R[1.0|0.1],Brow_Blend_Ctrl.Brow_Surprised_L[1.0|0.1]
+label:-:top:217:left:274:height:17:width:23:bgcol:[0.8,0.6,0.1]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Surprised_L[0.0|-0.1]
+label:+:top:217:left:298:height:17:width:23:bgcol:[0.9,0.7,0.1]:command:adjustAttrib:items:Brow_Blend_Ctrl.Brow_Surprised_L[1.0|0.1]
+
+
+## -----------
+# TOGGLES
+## -----------
+
+#extras:Toggle Visibility
+
+
+extra:Face Deform:top:90:left:10:height:20:width:108:bgcol:[0.9,0.7,0.7]:command:switchAttrib:items:ControlVis_Ctrl.faceDeformers
+extra:Teeth Deform:top:110:left:10:height:20:width:108:bgcol:[0.7,0.9,0.7]:command:switchAttrib:items:ControlVis_Ctrl.teethDeformers
+# extra:Leaf Deform:top:130:left:10:height:20:width:108:bgcol:[0.7,0.7,0.9]:command:switchAttrib:items:ControlVis_Ctrl.leafDeformers
+extra:Eye Lids:top:90:left:10:height:20:width:108:bgcol:[0.9,0.7,0.9]:command:switchAttrib:items:R_Eye_Transform.eyeLidCtrlVis,L_Eye_Transform.eyeLidCtrlVis
+extra:Eye Deform:top:90:left:10:height:20:width:108:bgcol:[0.9,0.9,0.7]:command:switchAttrib:items:R_Eye_Transform.eyeDeformerCtrlVis,L_Eye_Transform.eyeDeformerCtrlVis
+# extra:Proxy/Hires:top:90:left:10:height:20:width:108:bgcol:[0.6,0.6,0.6]:command:switchAttrib:items:Transform_Ctrl.GeoRes
+# extra:Body:top:10:left:10:height:20:width:55:bgcol:[0.9,0.9,0.9]:command:switchAttrib:items:ControlVis_Ctrl.bodyVis
+# extra:Eyes:top:30:left:10:height:20:width:55:bgcol:[0.9,0.9,0.9]:command:switchAttrib:items:ControlVis_Ctrl.eyesVis
+# extra:Teeth:top:50:left:10:height:20:width:55:bgcol:[0.9,0.9,0.9]:command:switchAttrib:items:ControlVis_Ctrl.teethVis
+# extra:Mouth:top:70:left:10:height:20:width:55:bgcol:[0.9,0.9,0.9]:command:switchAttrib:items:ControlVis_Ctrl.mouthVis
+# extra:Glasses:top:70:left:10:height:20:width:55:bgcol:[0.9,0.9,0.9]:command:switchAttrib:items:ControlVis_Ctrl.glassesVis
+#extra:<>:top:70:left:10:height:20:width:34:bgcol:[0.9,0.3,0.3]:command:refresh:items:ControlVis_Ctrl.glassesVis
