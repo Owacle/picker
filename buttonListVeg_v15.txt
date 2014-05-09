@@ -1,6 +1,6 @@
 #label:.....:top:.....:left:.....:height:......:width:.....:bgcol:[...,...,...]:command:select or another command included in the main py file:items:....., ....., etc
 
-window:Vegitales Picker:width:350:height:575
+window:Vegitales Picker:width:350:height:585
 
 tab:Main:bgimage:images/backDropMain_3.png
 
