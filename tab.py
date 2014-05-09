@@ -10,7 +10,7 @@ class Tab():
         self._title = title
         self._buttons = []
         self._bgimage = bgimage
-        print 'making a new tab called %s' % (self._title)
+        #print 'making a new tab called %s' % (self._title)
 
     def __str__(self):
         full_list = ''

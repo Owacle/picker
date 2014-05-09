@@ -17,8 +17,8 @@ import maya.cmds as cmds
 from pymel.core import * # for the file handling
 import os
 import xml.etree.ElementTree as ET
-import button
-import tab
+from tab import *
+from button import *
 
 class Picker():
     '''
@@ -104,7 +104,7 @@ class Picker():
         total = 0
         try:
             total += len(self._tabs_list)
-            print ' we got more'
+            #print ' we got more'
         except:
             print 'exception'
             pass
@@ -304,9 +304,12 @@ class Picker():
             self._all_lines = openfile.readlines()
         openfile.close()
         for position, each_item in enumerate(self._all_lines):
-            try:
-                if each_item[0] != '#':
+            #try:
+                #if each_item[0] != '#':
                     # window
+                    if len(each_item) < 1:
+                        print 'too small'
+                        break
                     if each_item[0] == 'w':
                         window_properties = each_item.split(':')
                         self._window_title = window_properties[1]
@@ -376,6 +379,7 @@ class Picker():
                         if self.num_tabs() == 0:
                             print 'number of tabs is 0'
                         if not current_tab:
+                            #print 'here'
                             props = each_item.split(':')
                         #   a_tab = Tab(label=props[1][:], bgimage=props[3][:-2])
                         #   self._tabs_list.append(a_tab)
@@ -383,16 +387,26 @@ class Picker():
                             current_tab = props[1][:]
                             tab_bgimage = props[3][:-2] # -2 strips off the EOL
                         else:
+                            #print 'also here'
                             all_controls.append([current_tab, tab_bgimage, current_buttonlist[:], current_controlsList[:]])
                             current_buttonlist = []
                             current_controlsList = []
                             props = each_item.split(':')
                             current_tab = props[1][:]
                             tab_bgimage = props[3][:-2] # -2 strips off the EOL
-            except:
+                    elif each_item[0] =='#':
+                        pass
+                        #print 'comment'
+                    else:
+                        pass
+                        #print 'nothing'
+                #else:
+                    #print 'empty line'
+            #except:
                 #empty line
                 #print 'empty line or error'
-                pass
+                #pass
+                    #print position
         # done so add the last one to the list
         all_controls.append([current_tab, tab_bgimage, current_buttonlist[:]])
 
@@ -871,7 +885,6 @@ class Picker():
         '''
         print 'selecting all the stuff'
 
-new_picker = Picker()
-new_picker.launch_window()
-print 'oi'
+#new_picker = Picker()
+#new_picker.launch_window()
 # new_picker.write_xml_buttons()
