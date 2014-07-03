@@ -96,8 +96,6 @@ class Picker():
         self._buttons_file = '/buttonListVeg_v15.txt'
         self._controls_list = self.load_buttons()
         self._the_who_list = self.get_char_names()
-        
-
         #print display_string
 
     def num_tabs(self):
@@ -347,9 +345,9 @@ class Picker():
                                           bgcol=[float(the_floats[0]),float(the_floats[1]),float(the_floats[2])], # bgcol
                                           command=command,     # command
                                           items=the_items)
-                        
+
                         self._all_buttons.append(a_button)
-                        
+
                         try:
                             self._tabs_list[-1].add_button(a_button)
                         except:
@@ -418,17 +416,6 @@ class Picker():
         '''
         print 'loading XML'
 
-    def write_buttons(self):
-
-        additional_button = 'label:newButton:top:135:left:160:height:20:width:50:bgcol:[0.9,0.9,0.9]:command:setChar:items:none\n'
-        new_data = self._all_lines[:]
-
-        new_data.append(additional_button)
-        file_name = self._pwd+'/buttonWriteOut.txt'
-        with open(file_name, 'w') as openfile:
-            openfile.writelines(new_data)
-        openfile.close()
-
     def prettify(self, elem):
         """Return a pretty-printed XML string for the Element.
         """
@@ -445,18 +432,18 @@ class Picker():
         write the same thing but this time in XML format somehow
         '''
         alltabs = []
-        window_element = ET.Element('window', 
-                                     width=str(self._window_width), 
-                                     height=str(self._window_height), 
+        window_element = ET.Element('window',
+                                     width=str(self._window_width),
+                                     height=str(self._window_height),
                                      title=self._window_title)
         for tab in self._tabs_list:
-            tab_element = ET.SubElement(window_element, 
-                                        tag='tab', 
+            tab_element = ET.SubElement(window_element,
+                                        tag='tab',
                                         title=tab.get_title())
             for button in tab.all_buttons():
-                button_element = ET.SubElement(tab_element, 
-                                  tag='button', 
-                                  label=button.get_name(), 
+                button_element = ET.SubElement(tab_element,
+                                  tag='button',
+                                  label=button.get_name(),
                                   left=str(button.get_left()),
                                   top=str(button.get_top()),
                                   height=str(button.get_height()),
@@ -469,21 +456,21 @@ class Picker():
                         all_items += str(item) + '\n\t\t\t\t'
                     item_element = ET.SubElement(button_element, tag='items')
                     item_element.text = all_items[:-5] # -5 to strip the new line and last set of tabs
-                else:   
+                else:
                     for item in button.get_items():
                         min_max = button.get_min_max(item)
                         clean_item = button.get_item_only(item)
                         #we still want to put in the min and max for relevant items
                         if min_max:
-                            item_element = ET.SubElement(button_element, 
-                                                         tag='item', 
-                                                          
-                                                         min=min_max[0], 
+                            item_element = ET.SubElement(button_element,
+                                                         tag='item',
+
+                                                         min=min_max[0],
                                                          max=min_max[1])
                             item_element.text = clean_item
                         else:
-                            item_element = ET.SubElement(button_element, 
-                                                         tag='item', 
+                            item_element = ET.SubElement(button_element,
+                                                         tag='item',
                                                          value='coming_soon')
                             item_element.text = clean_item
         tree = ET.ElementTree(window_element)
