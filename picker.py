@@ -268,10 +268,6 @@ class Picker():
                 self.move_button(what)
             elif theCommand == 'setAttrib':
                 self.set_attribute(what)
-            elif theCommand == 'addAttrib':
-                self.tweak_attributes(what)
-            elif theCommand == 'subAttrib':
-                self.tweak_attributes(what, negative=True)
             elif theCommand == 'adjustAttrib':
                 self.adjust_attributes(what)
             elif theCommand == 'refresh':
@@ -509,19 +505,6 @@ class Picker():
                         attachForm=[(the_field, 'top', top),
                                     (the_field, 'left', left)])
         return the_field
-
-    def make_button_group(self, left, top, parent_form):
-        '''
-        Sub routine for making the buttons in groups
-
-        '''
-        pass
-        # heres what we get given
-        # label:Oh:top:281:left:5:height:15:width:50:bgcol:[0.8,0.8,0.8]:command:select:items:
-        # label:-:top:281:left:154:height:15:width:23:bgcol:[0.6,0.6,0.6]:command:subAttrib:items:Mouth_Blend_Ctrl.Phoneme_Oh+0.2
-        # label:0:top:281:left:178:height:15:width:23:bgcol:[0.8,0.8,0.8]:command:setAttrib:items:Mouth_Blend_Ctrl.Phoneme_Oh=0.0
-        # label:Oh:top:281:left:202:height:15:width:23:bgcol:[0.8,0.8,0.8]:command:setAttrib:items:Mouth_Blend_Ctrl.Phoneme_Oh=1.0
-        # label:+:top:281:left:226:height:15:width:23:bgcol:[0.6,0.6,0.6]:command:addAttrib:items:Mouth_Blend_Ctrl.Phoneme_Oh+0.2
 
     def launch_window(self):
         '''
@@ -849,7 +832,7 @@ class Picker():
         setting negative to True tweaks DOWN
         '''
 
-        map
+        #map
         # add the tweak as a SCALE factor
         for one_who in self._who:
             # temporary fault check thing - take out ASAP
@@ -865,13 +848,3 @@ class Picker():
                 else:
                     new_value = current_value + self._tweak
                 cmds.setAttr(the_attrib, new_value)
-
-    def select_all_items(who):
-        '''
-        We need logic to check for names that aren't part of a given rig
-        '''
-        print 'selecting all the stuff'
-
-#new_picker = Picker()
-#new_picker.launch_window()
-# new_picker.write_xml_buttons()
